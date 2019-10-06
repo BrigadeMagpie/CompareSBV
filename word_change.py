@@ -19,7 +19,8 @@ def normalize(t):
 def word_change_block(added, deleted):
   """
   Calculates the number of accepted changed words for a consecutive block of change.
-  The changes below comes out to be 2. Any opposite signs in the same block is reduced to 1 change instead of 2
+  The changes below comes out to be 2. Any opposite signs in the same block is reduced to 1 change instead of 2.
+  It's basically a replace
   '-   a'
   '-   b'
   '+   c'
@@ -40,6 +41,13 @@ def word_change(old_t, new_t):
   differ = Differ()
   diff = list(differ.compare(_old_t, _new_t))
 
+  old_len = len(_old_t)
+  new_len = len(_new_t)
+  if old_len == 0 and new_len == 0:
+    return 0
+  if old_len == 0:
+    return math.inf
+
   total = 0
   curr_add = 0
   curr_del = 0
@@ -59,9 +67,7 @@ def word_change(old_t, new_t):
     else:
       raise Exception("Something went wrong")
 
-  old_len = len(_old_t)
-  if old_len == 0:
-    return math.inf
+  
   total += word_change_block(curr_add, curr_del)
   return total / len(_old_t)
 
@@ -73,6 +79,9 @@ if __name__ == '__main__':
   tests.append(
     ("So why aren't there the affection in your singing?",
      "So why aren't there the affection in your singing?"))
+  tests.append(
+    ("",
+     ""))
   tests.append(
     ("",
      "So why aren't there the affection in your singing?"))
