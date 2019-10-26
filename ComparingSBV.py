@@ -1,8 +1,7 @@
 #Delete empty text after timestamp in the sbv files
 import pandas as pd
-import webvtt #pip install webvtt-py
+import webvtt
 from datetime import datetime
-#pip install XlsxWriter
 
 #File paths
 InOriginal = "C:\\Users\\Jiachen\\OneDrive\\YouTube Subtitles\\Youtube LeTV Published\\EP20volunteers.sbv"
