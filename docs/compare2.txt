@@ -1,0 +1,1505 @@
+  00:00:00.000,00:00:03.000 Empresses in the Palace—the Legend of Zhen Huan\nAdopted from the novel by Liu Lian Zi
+  00:00:03.000,00:00:09.000 [contact translators] carsenwei@yahoo.com\n[subtitles subscription] liberapay.com/ZHZSubbers
+  00:00:09.000,00:00:11.000 Theme: Unfortunate Love
+  00:00:13.000,00:00:37.000 Perturbed by the thoughts on my mind\nno matter how hard I try to sever my love.
+  00:00:37.000,00:00:47.000 I could give away my crown for the beauty by my side,
+  00:00:48.000,00:00:59.000 but the wheel of fortune turns weals into woes,\nand woes into weals.
+  00:00:59.000,00:01:11.000 No one is the master of their own destiny,\nthe vicissitudes throughout their life.
+  00:01:11.000,00:01:22.000 For the lovers of all time,\nwho can break the spell of romance?
+  00:01:22.000,00:01:34.000 I could give away my crown for the beauty by my side,
+  00:01:34.000,00:01:41.000 but the wheel of fortune turns weals into woes,\nand woes into weals.
+  00:01:45.000,00:01:56.000 No one is the master of their own destiny,\nthe vicissitudes throughout their life.
+  00:01:56.000,00:02:07.000 For the lovers of all time,\nwho can break the spell of romance?
+  00:02:08.000,00:02:16.500 Who can break the spell of romance?
+- 00:02:17.000,00:02:22.760 [contact translators] carsenwei@yahoo.com\n[subtitles subscription] liberapay.com/ZHZSubbers
+?                     ^ ^^
++ 00:02:17.000,00:02:23.000 [contact translators] carsenwei@yahoo.com\n[subtitles subscription] liberapay.com/ZHZSubbers
+?                     ^ ^^
+- 00:02:24.000,00:02:26.980 His Majesty the Emperor.
++ 00:02:23.000,00:02:25.560 His majesty are arriving!
+- 00:02:38.020,00:02:39.560 All rise.
+?        ^ ^          ^ -
++ 00:02:36.620,00:02:38.620 All rise.
+?        ^ ^          ^  +
+- 00:02:39.760,00:02:41.600 I thank Your Majesty.
+?                     ^ ^^     ^^^^
++ 00:02:39.760,00:02:40.840 I am grateful to Your Majesty.
+?                     ^ ^^    ++++++ ^^^^^^^
+- 00:02:42.240,00:02:44.260 What's going on?
+- 00:02:44.420,00:02:47.560 I heard that someone defied Your Majesty's decree,\nso I came to request a thorough investigation.
++ 00:02:42.240,00:02:43.740 What happened?
++ 00:02:44.420,00:02:47.560 I've heard that someone defied the edict, so I come to investigate thoroughly.
+- 00:02:53.860,00:02:56.700 Peace to Your Majesty.
+?                      ---           ^    ^
++ 00:02:53.860,00:02:55.860 Peace to your majesty.
+?                     +++            ^    ^
+- 00:02:58.440,00:03:00.580 What brought you here?
+?                       ^^       ^ ^^^^^
++ 00:02:58.440,00:03:00.160 What are you doing here?
+?                       ^^       ^ ^    ++++++
+- 00:03:01.340,00:03:04.940 I was chatting with Concubine Estime in the chamber.
++ 00:03:01.080,00:03:03.620 I chatted with her highness in the room just now.
+- 00:03:08.040,00:03:10.600 Grace and peace to Your Highness.
+?                       -
++ 00:03:08.040,00:03:10.040 Grace and peace to Your Highness.
+?                        +
+- 00:03:12.460,00:03:14.440 Why are you here?
+?                     ^ ^^
++ 00:03:12.460,00:03:13.280 Why are you here?
+?                     ^ ^^
+- 00:03:15.040,00:03:17.340 Your Highness, where else should I be?
+?                      ^^^  ^^^ ^^ ^^^ --      -----
++ 00:03:15.040,00:03:16.780 Otherwise, where should I be?
+?                     ++ ^  ^^^^ ^ ^
++ 00:03:19.120,00:03:21.120 I just stayed with Her Highness.
++ 00:03:29.160,00:03:33.720 My Lady, How difficult to find you! It is Her Highness's palace that you go.
++ 00:03:34.820,00:03:38.780 I  have already sent the things here which you want to give Companion Shen.
++ 00:03:41.400,00:03:45.660 I just heard some loud noise in the hall of Concubine Estime, so I thought that some great events happened.
++ 00:03:47.140,00:03:50.060 Why do you come here instead of staying at the Cooling Hall?
+- 00:03:19.120,00:03:22.060 I came to visit Concubine Estime.
+- 00:03:29.160,00:03:33.980 We were looking for you, My Lady.\nIt turns out that you went to Her Highness's.
+- 00:03:34.680,00:03:39.540 I have delivered the packages you required\nto be sent to Companion Shen, My Lady.
+- 00:03:41.240,00:03:44.340 I heard a large procession coming towards Concubine Estime's palace.
+- 00:03:44.340,00:03:46.080 I thought that something serious was going on.
+- 00:03:47.140,00:03:50.500 Consort Fleur, why did you leave the Cooling Hall and come here instead?
+- 00:03:51.580,00:03:56.880 I heard someone trespassed into the Leisured Moon Chamber to visit the confined concubine ...
+?                     ^ ^^                          --                                             ^  ^^^              --
++ 00:03:51.580,00:03:58.700 I have heard that someone trespass into the Leisured Moon Chamber to visit the grounded concubine, so I come here to check.
+?                     ^ ^^   +++++      +++++                                                              ^^ + ^            + +++++++++++++++++++++++
+- 00:03:57.140,00:03:58.940 so I came to investigate.
+- 00:03:59.520,00:04:01.680 Do you have a warrant from the Empress?
+?                       ^              --
++ 00:03:59.520,00:04:01.280 Do you have warrant from the Empress?
+?                       ^
+- 00:04:02.480,00:04:06.580 I came in such a rush ... that I failed to obtain a warrant from the Empress.
++ 00:04:02.480,00:04:06.440 I was too anxious to get the warrant from the Empress.
+- 00:04:08.760,00:04:15.740 When I announced Shen's confinement,\nI said that no one shall visit her without my permission.
+?                       ^^         ^^^   ^       ^^ --------------                   ^^^ ^
++ 00:04:08.760,00:04:15.200 When I grounded Shen, I said that no one  could visit her without my permission.
+?                       ^^         ^^   ^       ^                    ^^^^ ^
+- 00:04:16.120,00:04:17.600 Did you forget?
+?                       ^    ^^
++ 00:04:16.120,00:04:17.300 Do you forget?
+?                       ^    ^
+- 00:04:17.600,00:04:18.420 Huh?
+- 00:04:19.460,00:04:20.100 I...
+?          -
++ 00:04:19.600,00:04:20.100 I...
+?           +
+- 00:04:20.120,00:04:22.460 So did you find the trespasser?
++ 00:04:20.120,00:04:21.540 Then what did you see in the Leisured Moon Chamber?
+- 00:04:22.920,00:04:27.540 The head maid Orchid refused to let me in.\nI haven't seen anyone yet.
+?                                                ------ ^ -          ^^^               ^ ----
++ 00:04:22.920,00:04:27.540 The head maid Orchid didn't let me in, so I haven't seen Shen yet.
+?                                                 ^^^^           ^^^^^               ^^^
+- 00:04:28.040,00:04:29.520 Very well!
+?           -         ^ ^        ^^^^
++ 00:04:28.100,00:04:28.820 Very good!
+?          +          ^ ^        ^^^^
+- 00:04:30.920,00:04:33.100 You are worthy of being my direct servant.
+?                     ^ ^                     ^      ^       ^^^^^^^^
++ 00:04:30.920,00:04:32.400 You are worthy of serving me directly.
+?                     ^ ^                     ^ ++     ^       ^^
+- 00:04:33.140,00:04:36.540 I always obey Your Majesty’s command.
+?                      ^^^           ^
++ 00:04:33.140,00:04:35.600 I always abide by Your Majesty’s command.
+?                     ++ ^           ^ ++ ++
+- 00:04:37.060,00:04:40.160 Your majesty, Her Highness always acts decisively.
+?                     ^ ^                     ^                  -
++ 00:04:37.060,00:04:41.860 Your majesty, Her highness always act decisively, she must have some evidence.
+?                     ^ ^                     ^                             +++++++++++++++++++++++++++++
++ 00:04:42.760,00:04:44.460 What about letting Her Highness into the Leisured Moon Chamber and check it out?
++ 00:04:45.460,00:04:49.760 On the one hand, Her Highness don't come here in vain; on the other hand, we could also make it clear.
+- 00:04:40.300,00:04:42.220 She must have obtained evidence for her suspicion.
+- 00:04:42.760,00:04:45.060 Why don't we search the Leisured Moon Chamber?
+- 00:04:45.420,00:04:47.920 For one thing, Her Highness wouldn't have made the trip in vain;
+- 00:04:47.920,00:04:50.180 for another, we could bring a conclusion to this incident.
+- 00:04:50.580,00:04:52.420 What does Your Majesty think?
+?          ^            ^^         ^^             ------
++ 00:04:50.080,00:04:52.080 What do you think, Your Majesty?
+?          ^            ^^         ^^^^^^^^^^^
++ 00:04:52.580,00:04:59.020 Companion Shen is grounded,  I can't bear to let her carry the charge of defying the edict.
++ 00:05:00.100,00:05:03.800 Your majesty, please let someone get into Leisured Moon Chamber to check in order to prove Companion Shen's innocence.
+- 00:04:52.580,00:04:54.720 Companion Shen is serving her confinement.
+- 00:04:54.720,00:04:59.020 I can't bear to see her carry\nanother accusation of disrespecting Your Majesty.
+- 00:05:00.020,00:05:02.660 I hope Your Majesty will send someone into the Leisured Moon Chamber for investigation.
+- 00:05:02.660,00:05:04.180 This will prove Companion Shen's innocence.
+- 00:05:06.320,00:05:10.020 Although Companion Shen is confined,\nwe cannot wrongly accuse her.
+?                    -  ^                              ^  ^^^   ^^      ^^           ^^^^
++ 00:05:06.320,00:05:09.720 Although Companion Shen is grounded, we can't wrongly blame her.
+?                     + ^                              ^^ + ^   ^      ^          ++ ^
+- 00:05:10.540,00:05:12.060 - Su Peisheng.\n- Your Majesty.
+?                     ^  - --             -----------------
++ 00:05:10.540,00:05:11.400 Su Peisheng.
+?                     ^ +
++ 00:05:11.500,00:05:12.180 I'm here.
+- 00:05:12.460,00:05:14.760 - Take a few people to go inside.\n- Yes.
+?          ^^          --- ^^                   ------       --------
++ 00:05:12.180,00:05:13.400 Take a few people inside.
+?          ^^         ++  ^
+- 00:05:23.560,00:05:27.460 Your Lordship, there are only these small boats to travel around on lake.
+- 00:05:27.460,00:05:29.200 I will take Your Lordship to the island.
++ 00:05:14.000,00:05:14.500 Ok.
++ 00:05:24.940,00:05:29.000 Your Lordship, these small boats are the only means of transportation on the lake. I'll take you to the island.
+- 00:05:29.520,00:05:32.060 Why are there so many lotus lanterns on the lake?
+?                      ---
++ 00:05:29.520,00:05:31.520 Why are there so many lotus lanterns on the lake?
+?                     +++
+- 00:05:33.060,00:05:36.480 Yesterday was the Ghost Festival.\nWe put down the lanterns to offer our prayers.
+?                       ^^                                  ^^ ^     -----                 ----------     -
++ 00:05:33.060,00:05:36.060 Yesterday was the Ghost Festival, people in the harem put the lanterns to pray for blessing.
+?                       ^^                                  ^^^^^^^^^^ ^^^ ++++++                         +++++++  ++++
+- 00:05:37.020,00:05:40.140 How could the lanterns compare to the real lotus flowers?
+?                    ^^ ^^                       -          ^               ^^^^^^^^^
++ 00:05:37.020,00:05:39.720 How could the lotus lantern compare with the real lotus.
+?                    ^^ ^^                 ++++++               ++ ^               ^
+- 00:05:40.600,00:05:43.520 At this time of the year, most lotus flowers have withered.
+- 00:05:44.320,00:05:46.720 That's why I need to see the lotus flowers while I still can.
+- 00:05:47.020,00:05:49.840 - Err...\n- You can go now. I'll row the boat over.
++ 00:05:40.600,00:05:42.680 At this time of the year, the true lotuses almost fade.
++ 00:05:44.320,00:05:46.320 So I want to see the unwithered lotuses.
++ 00:05:47.020,00:05:47.780 Eh...
++ 00:05:48.180,00:05:49.400 You all go back first, I'll row myself over.
+- 00:05:50.300,00:05:55.000 My Lordship, if His Majesty found out, he would\nblame us for not taking good care of you.
+?           ^         ^ ^^                              ^^^ ^^^^^          ^^
++ 00:05:50.380,00:05:54.160 My Lordship, if His Majesty knew, he would blame us for not taking good care of you.
+?           ^         ^ ^^                              ^ ^^          ^
+- 00:05:55.800,00:05:57.700 His Majesty knows me as a brother.
++ 00:05:55.800,00:05:57.480 His Majesty are familiar with my character.
+- 00:05:58.080,00:06:00.660 Don't worry. You can go back to work now.
+?                       ^^  ^     ^^ --  ^^ ^^^^                ----
++ 00:05:58.080,00:06:00.120 It doesn't matter. Just go back to work.
+?                       ^^  ^^^^ ++    ^^^^^   ^ ^^
+- 00:06:03.280,00:06:06.120 A-Jin, you will go back, too.
+?                     ^ -             -----
++ 00:06:03.280,00:06:05.280 A-Jin, you go back, too.
+?                     ^  +
+- 00:06:25.400,00:06:26.700 Your Majesty,
+?                       ^^              -
++ 00:06:25.400,00:06:26.110 Your Majesty
+?                       ^^
+- 00:06:26.760,00:06:30.320 there was no one else other than Companion Shen and a few servants.
++ 00:06:26.760,00:06:28.990 Other than Lady Vertu and a few servants
++ 00:06:29.360,00:06:30.150 there is no one else
+- 00:06:34.120,00:06:36.760 I was terribly concerned upon hearing the news.
+?                                  - ^^^                                  -
++ 00:06:34.120,00:06:36.760 I was truly concerned upon hearing this fabricated news
+?                                   ^                            +++++++++++ +
+- 00:06:36.760,00:06:38.380 I realize I was mistaken.
+?                     ^ ^^              - ^         -
++ 00:06:36.760,00:06:37.960 I realize I am mistaken
+?                     ^ ^^               ^
+- 00:06:39.120,00:06:41.300 I do beg Your Majesty's pardon.
++ 00:06:39.120,00:06:40.400 Please forgive me Your Majesty
+- 00:06:45.840,00:06:47.300 I'm aware ...
+?                      ^^^^          ----
++ 00:06:45.840,00:06:46.579 I'm aware
+?                     +++ ^
+- 00:06:47.600,00:06:50.760 of the never-ending gossips and rivalries in the harem.
+- 00:06:51.240,00:06:55.140 You have long been assisting in the palace affairs.\nYou should have a sense of priority.
+- 00:06:55.680,00:06:58.720 It was my oversight.\nI beg for Your Majesty's forgiveness.
++ 00:06:47.600,00:06:50.700 there are nonstop gossips and fights within the harem
++ 00:06:51.240,00:06:52.790 As the head of Palace Affairs
++ 00:06:53.160,00:06:55.000 you should be able to tell what's wrong from what's right
++ 00:06:55.680,00:06:58.720 I have not done my duty well. Please forgive me Your Majesty
+- 00:06:59.200,00:07:04.000 I thought you have changed after a period of self-reflection.
+?                     ^ ^^                                   ^^^ -------                -
++ 00:06:59.200,00:07:03.190 I thought you have changed after the self-reflection
+?                     ^ ^^                                   ^^
+- 00:07:04.680,00:07:06.860 But instead, your temper got even worse.
+?                       ^^  ^          ^             ----          -
++ 00:07:04.680,00:07:06.230 but instead it made your temper even worse
+?                       ^^  ^          ^^^^^^^^
+- 00:07:07.960,00:07:10.600 I was hoping to resume your authority in palace management
++ 00:07:07.960,00:07:10.470 Originally I was planning to give back your position as the head of Palace Affairs
+- 00:07:10.800,00:07:13.860 but it seems that there is no need at all.
+?                       ^^                                    --------
++ 00:07:10.800,00:07:13.550 but it seems that there is no more need
+?                       ^^                                +++++
+- 00:07:15.400,00:07:17.740 Go back to your palace and reflect upon yourself.
+?                       ^^                                    ---------------
++ 00:07:15.400,00:07:17.150 Go back to your own palace and reflect
+?                       ^^                 ++++
+- 00:07:17.840,00:07:20.160 Stop causing so much trouble.
+?                     ^^^^  ^                    ^ ^^^^^^
++ 00:07:17.840,00:07:19.270 stop causing so much drama
+?                    +++ ^  ^                    ^ ^^^
+- 00:07:20.800,00:07:22.620 I thank Your Majesty.
++ 00:07:20.800,00:07:22.300 Thank you for your kindness Your Majesty
+- 00:07:24.620,00:07:26.680 You are no longer allowed to see Princess Wenyi.
+?          ^^           ^^                                               ^ -
++ 00:07:24.800,00:07:26.350 You are no longer allowed to see Princess WenYi
+?          ^^           ^^                                               ^
+- 00:07:26.760,00:07:28.280 You would only be a bad influence on her.
+- 00:07:28.560,00:07:31.120 Your Majesty, I wish to offer a word to Your Majesty.
++ 00:07:26.760,00:07:28.270 lest you set a bad exmaple for her
++ 00:07:28.560,00:07:30.750 Your Majesty. I have one more thing to say.
+- 00:07:31.360,00:07:32.420 Yes.
+?                       ^^  ^ ^^
++ 00:07:31.360,00:07:32.110 Go ahead
+?                       ^^  ^^^^^ ^^
+- 00:07:32.600,00:07:36.240 In my view, Companion Shen has been\nconducting herself well in her continued confinement.
+- 00:07:36.560,00:07:39.320 I wonder if it would be reasonable to dismiss half of the guards?
+- 00:07:39.580,00:07:42.600 For one thing, it is an unnecessary overhead in the palace;
+- 00:07:42.840,00:07:49.280 For another, it more or less causes\ninconvenience and unease to the concubines.
+- 00:07:50.600,00:07:51.820 All right.
++ 00:07:32.600,00:07:33.420 I was pondering
++ 00:07:33.560,00:07:36.220 Lady Vertu has been on good behavior during this lengthy house arrest
++ 00:07:36.560,00:07:39.520 Can Your Majesty remove half of the guards?
++ 00:07:39.520,00:07:42.590 On one hand, we no longer need to waste the guards.
++ 00:07:42.840,00:07:44.670 On the other hand, with so many royal Ladies coming and going
++ 00:07:45.120,00:07:47.310 the guards are more or less an inconvenience
++ 00:07:47.640,00:07:49.550 making people somewhat restless.
++ 00:07:50.600,00:07:51.470 I concur
+- 00:07:52.000,00:07:54.480 Please take care of her as she is in your palace.
+?                        -                                                  -
++ 00:07:52.000,00:07:54.240 Please take care of her as she is in your palace
+?                       +
+- 00:07:55.120,00:07:57.840 I'm honored to obey, Your Majesty.\nAllow me to take my leave.
++ 00:07:55.040,00:07:57.080 I will gladly accept your wish. I will take my leave now.
+- 00:08:07.440,00:08:10.500 I'm glad you were not implicated.
+?                    -  ^                                   -
++ 00:08:07.440,00:08:09.800 I'm glad you were not implicated
+?                     + ^
+- 00:08:11.040,00:08:14.640 I will not put myself in jeopardy,\nor ever disobey Your Majesty's orders.
++ 00:08:11.040,00:08:12.480 I will not put myself in a bad situation
++ 00:08:12.980,00:08:14.780 I also do not want to disobey Your Majesty's orders
+- 00:08:24.160,00:08:26.380 His Majesty is leaving.
+?                       ^^                        -
++ 00:08:24.160,00:08:26.200 His Majesty is leaving
+?                       ^^
+- 00:08:26.480,00:08:28.600 I bid Your Majesty goodbye.
+?                      ^^^                            -
++ 00:08:26.480,00:08:27.830 I bid Your Majesty goodbye
+?                     ++ ^
+- 00:08:36.920,00:08:40.080 I was too careless and fell into your trap!
+?                    ^^ -
++ 00:08:36.920,00:08:39.830 I was too careless and fell into your trap!
+?                    ^^  +
+- 00:08:41.360,00:08:44.560 Only Your Highness could tell\nwhether it was because of carelessness.
+- 00:08:46.280,00:08:48.320 You set this up against me.
++ 00:08:41.360,00:08:44.480 Carelessness or not, only Your Majesty would know.
++ 00:08:46.280,00:08:47.680 Today you won
+- 00:08:48.400,00:08:51.780 I regret not taking you down earlier.
+?                                        ^^^        -----       -
++ 00:08:48.400,00:08:51.780 I regret not crushing you earlier
+?                                        ^^^^^
+- 00:08:51.980,00:08:53.760 Your Highness must be joking.
+?         ^^^            ^       ^^^^^  ^               -
++ 00:08:52.120,00:08:53.700 Your Majesty must be joking
+?        ++ ^            ^       ^^^  ^^
+- 00:08:53.800,00:08:55.720 We all serve His Majesty as a family.
+- 00:08:56.120,00:09:00.520 His Majesty would be angry should he catch wind of this.
+- 00:09:01.360,00:09:04.580 You can be pleased with yourself as a newly favored concubine.
+- 00:09:05.120,00:09:09.420 Unfortunately, I do not tolerate any\ntricksters like you under my throne.
+- 00:09:10.000,00:09:13.120 It is a matter of tolerance whether Your Highness accepts me.
+- 00:09:13.280,00:09:16.840 But it's a matter of skill to make Your Highness accept me.
++ 00:08:53.800,00:08:55.630 We all serve the Emperor as part of the same harem
++ 00:08:56.120,00:08:58.400 If the Emperor gets a wind of this
++ 00:08:59.080,00:09:00.360 His Majesty would be mad again
++ 00:09:01.360,00:09:04.120 You are happy since the Emperor is favoring you at the moment
++ 00:09:05.120,00:09:06.550 As long as I'm around
++ 00:09:07.200,00:09:09.430 I will not tolerate scheming people like you
++ 00:09:10.000,00:09:12.550 Whether if I can be tolerated is up to Your Highness;
++ 00:09:13.280,00:09:16.830 whether if I can please Your Highness all depends on me.
+- 00:09:24.280,00:09:26.620 We have a long way to go.
+?                       ^^                          -
++ 00:09:24.280,00:09:26.440 We have a long way to go
+?                       ^^
+- 00:09:26.900,00:09:28.780 We will wait and see.
++ 00:09:26.440,00:09:28.310 Let's see who's smiles at the end
+- 00:09:31.200,00:09:33.060 Let's go.
+?                     ^ ^^    ^^^^^^^
++ 00:09:31.200,00:09:31.880 Leave
+?                     ^ ^^    ^^^
+- 00:09:56.580,00:10:00.400 By His Majesty's decree, the guards for\nthe Leisured Moon Chamber will be halved.
++ 00:09:56.580,00:09:57.780 By His Majesty's decree
++ 00:09:58.120,00:10:00.520 The palace will only need to staff half of the gurads
+- 00:10:00.960,00:10:03.180 - Your team can go back now.\n- Yes.
+?                     ^ ^  --    - ^^^^                ---------
++ 00:10:00.960,00:10:02.280 You bunch can go back now
+?                     ^ ^       ^^^^^
+- 00:10:04.560,00:10:08.280 Lady Sourire rewarded you money to treat yourselves to some tea.
++ 00:10:02.360,00:10:03.220 Yes
++ 00:10:04.560,00:10:08.280 Lady Sourire gave you these rewards as a token of appreciation
+- 00:10:10.620,00:10:11.780 What about us?
+?          ^^           ^^
++ 00:10:10.700,00:10:11.540 What about us?
+?          ^^           ^^
+- 00:10:11.780,00:10:13.080 Don't worry.
+?           ^         ^ ^^  ^ --       -
++ 00:10:11.740,00:10:12.660 Not too worry
+?           ^         ^ ^^  ^  ++++
+- 00:10:13.340,00:10:17.340 Her Highness Concubine Estime appreciates your\nhard work and has prepared tea and snacks for you.
+- 00:10:17.960,00:10:19.340 We are grateful to Her Highness.
++ 00:10:13.340,00:10:15.380 Her Highness Estime appreciates your hard work
++ 00:10:15.700,00:10:17.600 She has prepared tea and snacks for you
++ 00:10:17.960,00:10:18.800 Many thanks to Lady Estime
+- 00:10:19.380,00:10:22.060 However we are on duty right now.\nWe  should not be eating.
+?                     ^ ^                                   ----------------------------
++ 00:10:19.380,00:10:20.560 However we are on duty right now
+?                     ^ ^
+- 00:10:22.760,00:10:24.080 That's not a problem.
++ 00:10:21.020,00:10:22.180 We cannot be eating
++ 00:10:22.880,00:10:23.640 No problem
++ 00:10:24.120,00:10:25.630 All your hard work here in the palace
+- 00:10:24.120,00:10:27.400 All your hard work has not gone unnoticed by Her Highness.
+?        ^ ^            ^ --------------------                                       ^
++ 00:10:25.920,00:10:27.510 has not gone unnoticed by Her Highness Estime
+?        ^ ^            ^^                                        ^^^^^^^
+- 00:10:27.800,00:10:33.220 As long as you fulfill your duties, Her Highness will\nspeak fondly of you all to His Majesty.
++ 00:10:27.800,00:10:29.870 As long as you guys perform your duties favorably
++ 00:10:30.200,00:10:33.220 Lady Estime will speak fondly of you all in front of the Emperor
+- 00:10:33.700,00:10:34.940 Thanks, Madam.
+?           ^           ^         -      -
++ 00:10:33.760,00:10:34.640 Thanks Madam
+?           ^           ^
+- 00:10:35.000,00:10:36.720 If so, we must not decline Her Highness.
+- 00:10:36.860,00:10:38.800 - All right, I will go with you.\n- Certainly.
++ 00:10:35.000,00:10:36.520 We won't hold back then
++ 00:10:36.860,00:10:38.380 Alright, let's go.
++ 00:10:38.560,00:10:38.910 Okay
+- 00:10:39.020,00:10:40.720 There will be rewards afterwards.
+?          ^            ^^                                  -
++ 00:10:39.120,00:10:40.110 There will be more rewards afterwards
+?          ^            ^^              +++++
+- 00:10:40.860,00:10:42.500 Yes. Follow me.
+- 00:10:46.200,00:10:47.520 My Lady, your presumption is correct.
+?                       ^^                 - ^ ^^           ^ ^^
++ 00:10:46.200,00:10:47.400 My Lady, your speculation is confirmed.
+?                       ^^                +  ^ ^^          +++ ^ ^
+- 00:10:47.520,00:10:51.440 Jade sneaked out from the back door to\nNoble Lady Cao's palace not long after you left.
+?           ^        ^^  ^                                        ^^                       ^^^^^^^^^^^^^^^^^^^^^^^^^
++ 00:10:47.500,00:10:49.400 Jade sneaked out  from the back door to Noble Lady Cao's palace,
+?           ^        ^^  ^                  +                      ^                       ^
++ 00:10:49.700,00:10:51.700 a short while after you lady and Vermilion's leave.
+- 00:10:52.800,00:10:54.020 My Lady ...
+?                     ^  -         ^^^^
++ 00:10:52.800,00:10:53.500 My Lady,
+?                     ^ +          ^
+- 00:10:54.200,00:10:55.800 Should I detain her?
+?                       ^   ^^    --           ^
++ 00:10:54.200,00:10:55.600 I could detain her if you like.
+?                       ^   ^^^               ^^^^^^^^^^^^^
+- 00:10:56.940,00:10:59.260 Act as if nothing happened.
++ 00:10:56.000,00:10:59.000 I rather like you to act as if nothing has happened.
+- 00:10:59.500,00:11:00.780 Yes, My Lady.
+?                       ^^
++ 00:10:59.500,00:11:00.200 Yes, My Lady.
+?                       ^^
+- 00:11:01.000,00:11:02.500 You can go now.
+?                       ^       ^^^
++ 00:11:01.000,00:11:02.000 You should go now.
+?                       ^       ^^^^^^
+- 00:11:02.580,00:11:04.660 I will interrogate her myself.
++ 00:11:02.800,00:11:04.400 I shall question her in person.
+- 00:11:05.000,00:11:06.200 Yes.
+?                     ^ ^
++ 00:11:05.000,00:11:05.500 Yes.
+?                     ^ ^
+- 00:11:07.600,00:11:09.740 I have moored the boat in the lotus leaves.
+?                        ^         ^^^^ ^                        ^^^^
++ 00:11:07.600,00:11:09.700 I have hidden  the boat deep in the lotus clumps.
+?                        ^         ^^^^ ^^         +++++              + ^^^
+- 00:11:09.920,00:11:12.220 You won't be noticed on the way back, My Lady.
+?        - -          ^ ^^                                      ---------
++ 00:11:10.200,00:11:11.700 You Lady won't be noticed on the way back.
+?       +   +         ^ ^^     +++++
+- 00:11:12.340,00:11:14.320 Allow me to take my leave.
+?          ^^         ^ ^^
++ 00:11:12.000,00:11:12.800 Allow me to take my leave.
+?          ^^         ^ ^^
+- 00:11:19.000,00:11:20.440 Please help me get changed.
++ 00:11:19.000,00:11:19.500 I shall get changed.
+- 00:11:25.300,00:11:26.800 That bitch!
+?          ^            ^   ^^^^^^
++ 00:11:25.600,00:11:26.600 Bitch!
+?          ^            ^   ^
+- 00:11:27.000,00:11:29.140 She deceived me with Zhen Huan!
+?                     ^ ^^  ^^^^^      -
++ 00:11:27.000,00:11:28.500 Deceive me together with Zhen Huan!
+?                     ^ ^^  ^         +++++++++
+- 00:11:29.400,00:11:32.160 Your Highness must not be angry for the good of your health.
+- 00:11:33.500,00:11:37.580 They have obviously colluded to claim false allegiance to me.
+- 00:11:38.980,00:11:43.020 They have ... It was my oversight.
+- 00:11:43.300,00:11:46.800 I was fooled when Jade put on her puppy face.
+- 00:11:49.440,00:11:53.060 Well, you would always exercise prudence in your decisions.
+- 00:11:53.700,00:11:57.660 How uncommon it was for you to inform me in such a haste!
+- 00:11:59.000,00:12:01.560 I was only thinking about Your Highness.
+- 00:12:02.000,00:12:07.840 I thought we must eliminate Lady Sourire in time\nfor her disrespect to Your Highness.
+- 00:12:08.700,00:12:11.300 (sneer) Thank you for your concern.
++ 00:11:29.400,00:11:31.800 Your Highness, please compose yourself for your health's sake.
++ 00:11:33.500,00:11:35.100 Obviously, they have schemed on the false surrender,
++ 00:11:35.100,00:11:37.400 deceiving me into believing in her entirely.
++ 00:11:38.400,00:11:39.000 It is.
++ 00:11:39.000,00:11:43.000 I should have kept my eyes wide open,
++ 00:11:43.300,00:11:44.800 rather than was blinded to the truth.
++ 00:11:44.800,00:11:46.800 by Jade's pitiful but spurious look.
++ 00:11:49.600,00:11:52.500 Well, you always act in practical prudence.
++ 00:11:53.700,00:11:55.600 It's fairly uncommon for you
++ 00:11:56.000,00:11:58.000 to bring me the message in such a rush.
++ 00:11:59.000,00:12:01.200 I only cared too much on Your Highness's annoyance.
++ 00:12:02.000,00:12:04.100 Noble Lady Sourire's disrespect towards Your Highness
++ 00:12:04.700,00:12:07.600 indicates a future threat if we couldn't exterminate her in time.
++ 00:12:08.700,00:12:10.400 Your care on it is valuable indeed.
+- 00:12:20.600,00:12:21.900 Your Highness ...
+?        ^ ^            ^                ^^^^
++ 00:12:21.300,00:12:21.800 Your Highness,
+?        ^ ^            ^                ^
+- 00:12:22.040,00:12:25.220 May peace restore in your mind\nas you enjoy the smell of the Pleasancy.
+?           -           ^^  ^                             ^ ------------                  ^
++ 00:12:22.500,00:12:25.100 may peace restore in your mind, in the smell of the pleasancy.
+?          +            ^^  ^                             ^^^                   ^
+- 00:12:25.800,00:12:29.980 His Majesty was angry because he cares so much about you.
+- 00:12:32.820,00:12:38.740 I'm afraid His Majesty sees only the smiles\nof the new concubines but tears of the old ones.
++ 00:12:25.800,00:12:27.200 His Majesty's temper comes completely
++ 00:12:27.500,00:12:29.700 from his exceeding concern on  you.
++ 00:12:33.000,00:12:36.000 I rather worry that His Majesty would put aside my sorrow
++ 00:12:36.000,00:12:38.400 when he is absorbed by the joy from the new concubines.
+- 00:12:43.640,00:12:44.780 Madam.
+?        ^ ^^           ^^       -
++ 00:12:44.000,00:12:44.500 Madam
+?        ^ ^^           ^^
+- 00:12:45.400,00:12:47.380 The guards are changing shifts right now.
+- 00:12:47.600,00:12:51.320 After half of the guards were dismissed,\nthe remainder are slacking.
+- 00:12:51.820,00:12:53.940 Some sedatives were added to their tea.
++ 00:12:45.400,00:12:47.200 This is the time for the guards to shift duties.
++ 00:12:47.600,00:12:49.100 Half of the former guards left by order moments ago.
++ 00:12:49.500,00:12:51.300 The last half guard the palace idly.
++ 00:12:52.100,00:12:53.700 Some knockout drops have been added into their food.
+- 00:12:54.100,00:12:55.920 They must be feeling drowsy now.
+?          ^            ^^  ^         ---    ---       ----
++ 00:12:54.200,00:12:55.400 Now they must feel drowsy.
+?          ^            ^^  ^^^^^
+- 00:12:56.100,00:12:58.720 The door is unlocked.\nI will walk you in, My Lady.
+- 00:13:00.000,00:13:02.000 You may leave. Be careful not to attract attention.
++ 00:12:56.100,00:12:57.100 The door has been half-opened.
++ 00:12:57.100,00:12:58.700 I may walk You Lady indoors.
++ 00:13:00.000,00:13:01.000 You may go. Be unnoticed.
++ 00:13:01.000,00:13:02.000 Avoid catching others' attention.
+- 00:13:02.160,00:13:02.860 Yes.
+?          ^^           ^^
++ 00:13:02.000,00:13:02.500 Yes.
+?          ^^           ^^
+- 00:13:11.500,00:13:13.120 Meizhuang.
+?                     ^  ^
++ 00:13:11.500,00:13:12.100 Meizhuang.
+?                     ^  ^
+- 00:13:14.020,00:13:15.780 Your hands are so cold.
+?           -           ^^                  -
++ 00:13:14.300,00:13:15.300 Your hands are as cold as ice.
+?          +            ^^                 +      +++++++
+- 00:13:17.700,00:13:19.600 Don't worry, I'm all right.
+?                                      ^     ------ ^^
++ 00:13:17.700,00:13:19.600 Don't worry for me. I' m good.
+?                                      ^^^^^^^^   +   ^^^
+- 00:13:20.000,00:13:22.660 Madam Orchid would always tell me you had been very well.
+- 00:13:23.000,00:13:24.740 I always had some doubts.
+- 00:13:25.400,00:13:29.300 I'm reassured now seeing you here.
+- 00:13:30.780,00:13:34.720 Nothing went wrong with me.\nBut I would always worry about you.
++ 00:13:20.000,00:13:22.400 Madam Orchid kept reassuring me that you are in good conditions.
++ 00:13:23.000,00:13:24.000 I treated her words with doubt.
++ 00:13:25.400,00:13:29.300 Seeing you here, my doubt has been dispelled.
++ 00:13:31.400,00:13:32.500 Nothing has been wrong with me.
++ 00:13:32.500,00:13:34.300 But I can't help concerning on your condition.
+- 00:13:36.160,00:13:39.200 My Ladies, I would stay outside and look out for you.
+?          ^^           ^   ^^                                  ^^^^ ^ ^^^^ ^^^^
++ 00:13:36.400,00:13:39.000 You Ladies, I would stay outside and watch the guards.
+?          ^^           ^   ^^^                                  ^^^^^ ^^^^^ ^ ^^
+- 00:13:40.000,00:13:42.140 Please don't take too long.
++ 00:13:39.800,00:13:41.600 Time is limited. The guards may resume their duties soon.
+- 00:13:58.900,00:14:01.920 This is no longer the Leisured Moon Chamber it used to be.
+?                       ^^                                              ^^ ^^^^^^ ^^
++ 00:13:58.900,00:14:01.500 This is no longer the sumptuous Leisured Moon Chamber any more.
+?                       ^^                        ++++++++++                      ^^^ ^ ^
+- 00:14:02.600,00:14:04.460 But you are still a concubine.
+?                     ^ ^^          -      ^^ ^
++ 00:14:02.600,00:14:03.900 But you remains a position in the concubines.
+?                     ^ ^^            +++++ ++++ +  ^^ ^^^^^^          +
+- 00:14:04.600,00:14:07.700 These ... these servants should be ashamed of themselves.
++ 00:14:04.600,00:14:07.700 These... these brazen service men dare to skimp on you.
+- 00:14:10.620,00:14:12.820 Consort Fleur is in her prime.
+?         ---           ^^
++ 00:14:11.200,00:14:12.100 Consort Fleur is in her prime.
+?        +++            ^^
++ 00:14:13.400,00:14:14.400 No wonder that in this harem
++ 00:14:15.800,00:14:17.800 service men yearn to flatter her
++ 00:14:19.400,00:14:21.000 through the disdain on me.
++ 00:14:23.900,00:14:25.700 If Madam Orchid hadn't offered help secretly,
++ 00:14:27.700,00:14:30.500 I could hardly survive the torture they imposed on me.
++ 00:14:31.460,00:18:31.680 Farrah
+- 00:14:13.400,00:14:18.120 All the servants “turn the helm according to the wind”.
+- 00:14:19.400,00:14:21.740 They've been trampling on me.
+- 00:14:24.200,00:14:30.280 I could hardly survive to today without Madam Orchid's discreet help.
+- 00:14:36.560,00:14:38.920 Even the servants are no longer using such candles.
+- 00:14:39.500,00:14:41.700 It burns with so much smoke.
+- 00:14:43.060,00:14:47.020 It's all right. It's dark enough in my heart.
+- 00:14:47.160,00:14:51.260 It would fall into complete darkness if I don't see any light.
+- 00:14:52.080,00:14:57.560 Meizhuang, I assure you I will ask His Majesty\nto end your confinement as soon as possible.
+- 00:14:58.640,00:15:02.220 Madam Orchid told me you were not implicated in this incident.
+- 00:15:02.700,00:15:04.980 That brings peace to my mind.
+- 00:15:06.020,00:15:08.460 Fortunately, Lingrong is here with you.
+- 00:15:09.000,00:15:11.840 So you won't be too isolated.
+- 00:15:13.660,00:15:17.300 By the way, is His Majesty very fond of Lingrong?
+- 00:15:18.980,00:15:20.780 Yes.
+- 00:15:23.420,00:15:29.540 Even though Lingrong is here, you will still have to\nmake your own decisions if anything goes wrong.
+- 00:15:30.620,00:15:34.160 I'm all right. I'm just worried about you.
+- 00:15:34.560,00:15:36.700 You must take the best care of yourself.
+- 00:15:38.820,00:15:43.240 Did you hear what was going on outside?\nI finally got to take it out on her.
+- 00:15:43.640,00:15:45.320 I did.
+- 00:15:47.020,00:15:52.280 Although ... she is not that easy to tackle.
+- 00:15:54.260,00:15:58.000 Thankfully, His Majesty believes me.
+- 00:16:03.080,00:16:07.760 What happened exactly with your pregnancy?
+- 00:16:09.760,00:16:14.880 They all said I was feigning a pregnancy for favor.\nEven you would not trust me?
+- 00:16:22.080,00:16:26.080 With the favor I had at that time,\npregnancy was just a matter of time.
+- 00:16:26.900,00:16:29.780 Why did I need to feign a pregnancy?
+- 00:16:34.160,00:16:36.920 They deliberately made you think you were pregnant
+- 00:16:36.920,00:16:40.940 and testified against you saying you were trying to gain His Majesty's favor.
+- 00:16:41.400,00:16:46.740 I'm afraid that from the prescription by Dr. Jiang\nto the appointment of Liu Ben ...
+- 00:16:47.080,00:16:49.140 it was all part of a plan.
+- 00:16:49.500,00:16:56.000 They played on my desire for pregnancy and\nset the trap that I would willingly walk into.
+- 00:16:57.900,00:16:59.720 It was on me ...
+- 00:16:59.880,00:17:02.500 It was all my fault.
+- 00:17:03.360,00:17:08.480 It was not until Poria took out the blood-stained underwear
+- 00:17:08.640,00:17:13.480 that I realized I wasn't pregnant at all.
+- 00:17:15.920,00:17:18.980 His Majesty had intended to resume Consort Fleur's power in harem management.
+- 00:17:19.420,00:17:25.160 If I had not set this up against her today, Lingrong and I\nwould soon have our lives hanging by a thread
+- 00:17:28.240,00:17:31.340 I'm already of no use.
+- 00:17:32.200,00:17:35.580 It would be great if you can get me released.
+- 00:17:36.480,00:17:41.700 Otherwise, your priority is to take care of yourself.
+- 00:17:42.220,00:17:44.120 You can never be too cautious.
+- 00:17:45.640,00:17:48.860 You must never fall into a plight like this.
+- 00:17:50.000,00:17:53.660 Meizhuang, you must not worry.
+- 00:17:54.160,00:17:58.040 His Majesty ... His Majesty ...
+- 00:17:58.400,00:18:00.300 He would always show grace to you.
+- 00:18:00.380,00:18:02.000 Grace?
+- 00:18:03.420,00:18:10.480 When we were young in our maiden years,\nall we wished for was an adequate husband.
+- 00:18:11.240,00:18:18.420 Even though I know equal respect and caring is a luxury\nfor marriage into the imperial family,
+- 00:18:18.600,00:18:24.540 I would always hope to rely on my husband\nwho can trust and care for me.
+- 00:18:25.560,00:18:29.960 It seems that I was wrong after all.
+- 00:18:34.300,00:18:38.400 I have told our families to use their best efforts to hunt Liu Ben down.
+?                     ^ ^^                              --------------------------
++ 00:18:34.300,00:18:37.960 I have told our families to hunt Liu Ben down.
+?                     ^ ^^
++ 00:18:39.040,00:18:43.920 His Majesty will surely compensate you and declare you innocnet when the truth comes out.
++ 00:18:45.760,00:18:52.380 He cannot compensate my suffering during these days at all.
++ 00:18:54.420,00:18:59.320 I was the center of his attention but then he abandoned, and distrusted me.
+- 00:18:39.040,00:18:44.840 His Majesty will surely vindicate and compensate you when the truth emerges.
+- 00:18:45.500,00:18:47.340 Compensate?
+- 00:18:48.180,00:18:53.140 How can he possibly compensate for all my suffering?
+- 00:18:54.300,00:18:59.320 One day I was dearly cherished and the next I was abandoned with distrust.
+- 00:18:59.940,00:19:02.280 His Majesty ...
+?                     ^  ^              ^^^
++ 00:18:59.940,00:19:07.260 His Majesty, is truly fickle,
+?                     ^  ^             + ^^^^^^^^^^^^^^^^
++ 00:19:07.260,00:19:12.180 totally ignoring the affection in the bygone days.
+- 00:19:03.720,00:19:07.260 What a fickle heart he has!
+- 00:19:07.620,00:19:12.180 I thought he would be affectionate about the past.
+- 00:19:16.280,00:19:21.520 I know it is harsh for you to hear me saying this.
+?                       ^^                                     ----------
++ 00:19:16.280,00:19:21.080 I know, that it is harsh for you to hear this words.
+?                       ^^        ++++++                                 ++++++
+- 00:19:23.200,00:19:26.840 Without my own plight I wouldn't understand
++ 00:19:23.420,00:19:27.780 But only when I am in the plight did I finally understand
+- 00:19:27.180,00:19:31.100 what His Majesty's affection is.
+?          ^                ^
++ 00:19:27.780,00:19:31.100 that His Majesty's affection is just it .
+?          ^                ^                              +++++++++
++ 00:19:34.740,00:19:42.080 Nevertheless, you will not be like me as His Majesty treats you extremely well.
+- 00:19:34.740,00:19:38.700 However, His Majesty treats you exceptionally well.
+- 00:19:38.980,00:19:42.080 I didn't think you would have to go through this.
+- 00:19:43.600,00:19:50.360 These are just heartbroken words from a heartbroken person.
++ 00:19:43.600,00:19:50.360 These words are just heartbroken words from a heartbroken person.
+?                                ++++++
++ 00:19:50.500,00:19:52.500 knock sound
+- 00:19:53.080,00:19:58.540 My Lady, please come out soon.\nThey will be back soon.
+?                                  -                 ^ ^^^^^^            ^^^^ - ^^
++ 00:19:53.080,00:19:58.540 My Lady please come out right away otherwise you will be found out.
+?                                                   ^^^^^^^^^^^ ^  ++++++ ++         ^^^^^  ^^
+- 00:19:58.740,00:20:00.280 Meizhuang ...
++ 00:19:58.740,00:19:59.500 Mei
+- 00:20:01.380,00:20:03.980 You must take care of your health.
+?                           ^ ------
++ 00:20:01.380,00:20:03.980 Be sure to take care of your health.
+?                           ^^^^^^^^^
+- 00:20:04.760,00:20:07.500 I will do whatever it takes to get you out of here.
+?                      ^^^                     ^^ ^ ^^^    ^ -
++ 00:20:04.760,00:20:08.740 I will definitely do whatever I can to save you out of here.
+?                     ++ ^        +++++++++++             ^ ^ ^    ^^^
+- 00:20:07.660,00:20:08.980 My Lady, please come out as fast as you can.
+? -------------         ^^
++ 00:20:08.740,00:20:10.740 My Lady, please come out as fast as you can.
+?          ^^^^^^^^^^^^^^^
+- 00:20:08.980,00:20:09.780 Yes.
+- 00:20:10.740,00:20:12.800 My Lady, please come out quickly.
+?                       ^          -
++ 00:20:10.740,00:20:12.400 My Lady please come out quickly.
+?                       ^
+- 00:20:16.320,00:20:17.920 You must take care.
+?                     ^ ^   ^ ------
++ 00:20:16.320,00:20:18.220 Be sure to take care.
+?                     ^ ^   ^^^^^^^^^
+- 00:20:18.020,00:20:19.400 Please go.
+?          ^              - ^^^^^^^^
++ 00:20:18.220,00:20:19.140 Go.
+?          ^            +   ^
+- 00:20:21.660,00:20:23.240 Goodbye.
+?                     ^ ^^    -----
++ 00:20:21.660,00:20:22.660 Go.
+?                     ^ ^^
+- 00:20:30.900,00:20:34.540 Madam, please take care of her.\nPlease help her if anything.
+?                     ^ ^^  ^^^^^                          ^^       ^^^^     -
++ 00:20:30.900,00:20:35.020 Auntie, please take care of her. Please assist her for anything.
+?                     ^ ^^  ^^^^^^                          ^       ^^^^^^      ++
++ 00:20:35.020,00:20:40.920 My Lady, please be assured. The situation more or less will calm down after today's farce. Her Lady Mei's days will be better.
+- 00:20:34.720,00:20:36.320 My Lady, please be assured.
+- 00:20:36.320,00:20:40.920 Peace will remain for a while after today's farce.\nLady Meizhuang will be better off.
+- 00:20:41.300,00:20:43.540 My Lady, please go back quickly.
+?                      ^^^         -                ^ ^ ^^^
++ 00:20:41.300,00:20:44.300 My Lady please go back to your chamber.
+?                     ++ ^                         ^^^^^ ^^ ^^^^^^
+- 00:21:28.420,00:21:30.420 Who's there?
+?        ^ ^^        ^ ---     ^
++ 00:21:27.500,00:21:29.500 Who is there ?
+?        ^ ^^        ^^^^      ^^       +
+- 00:21:32.360,00:21:34.520 Who is on the boat?
+?        ^ ^^         ^  ^
++ 00:21:31.540,00:21:33.540 Who is on the boat ?
+?        ^ ^^         ^  ^                    +
+- 00:21:40.740,00:21:42.260 Who is it?
+?       ^^ ^          ^ ^^
++ 00:21:39.840,00:21:41.840 Who is it ?
+?       ^^ ^          ^ ^^           +
+- 00:21:42.480,00:21:45.040 Who is it to disturb my good sleep?
+- 00:21:45.800,00:21:49.020 I didn't know Your Lordship is here.\nPlease forgive me for the offence.
++ 00:21:42.460,00:21:44.840 Who is it that interrupting my beautiful dream?
++ 00:21:45.940,00:21:49.480 I don't know Your Lordship is here. Please forgive me for having interrupted Your Lordship
+- 00:21:49.440,00:21:51.940 Go. Don't disturb my night.
+?          ^^           ^^  ^^                   -- ^^
++ 00:21:49.980,00:21:51.880 Leave. Don't disturb my good mood.
+?          ^^           ^^  ^^^^^                    ^^^^^^^^
+- 00:21:52.140,00:21:54.120 May I ask why Your Lordship is here?
+?        ^ ^            ^^        --
++ 00:21:51.940,00:21:54.760 May I know why Your Lordship is here?
+?        ^ ^            ^^         +++
+- 00:21:55.100,00:21:58.220 His Majesty asked me to stay in the palace tonight.\nDo you need to question His Majesty?
+?                       ^                                              ----------               ^^^ ^^^^ -----------
++ 00:21:55.100,00:21:58.420 His Majesty asked me to stay the night in the palace. Do you even need to ask ?
+?                       ^                                ++++++++++             +       +++++         ^ ^
+- 00:21:58.740,00:22:00.420 No, Your Lordship.
++ 00:21:58.420,00:22:00.420 Yes. Yes.
+- 00:22:07.200,00:22:09.460 It's all right now.
+?        ^ ^          ^ ^^       ^^^^^ ^^^
++ 00:22:06.100,00:22:08.100 It's fine now.
+?        ^ ^          ^ ^^       ^ ^^
+- 00:22:19.320,00:22:21.620 How about I take you back in the boat?
+?                       ^                ---               ^     -
++ 00:22:19.320,00:22:21.320 How about I escort you back by rowing this boat
+?                       ^               +++++           ++++++  +   ^^
+- 00:22:21.740,00:22:24.440 It'll be faster and more convenient.
+?                     ^ ^   ^ ^ ^
++ 00:22:21.740,00:22:23.740 as it would be faster and more convenient.
+?                     ^ ^   ^^^^ ^^^^ ^
+- 00:22:26.340,00:22:28.500 I thank Your Lordship.
+?          ^^               ^^^
++ 00:22:26.500,00:22:28.500 Thank you, Your Lordship.
+?          ^^               ^    +++++
+- 00:22:39.760,00:22:43.940 I only heard of the the wind on the lake bringing the fragrance of lotus across ten miles.
+- 00:22:44.400,00:22:45.980 Now that I'm on the lake,
+- 00:22:45.980,00:22:48.940 I can even smell the pleasant scents of water caltrops and reeds.
+- 00:22:49.200,00:22:53.120 Sure enough, one can enjoy much more through immersion than observation.
+- 00:22:56.520,00:22:59.200 Not even many lotus pods are left at this time.\n[Lotus withers after bearing seeds in late summer.]
++ 00:22:39.760,00:22:41.200 What I’ve already known is that,
++ 00:22:41.340,00:22:43.680 the lake is full of lotus in bloom and the wind brings fragrance from far away.
++ 00:22:44.740,00:22:45.980 Now surrendered by the blossom,
++ 00:22:45.980,00:22:48.720 I can even feel the delicate smell of trapa’s leaves and reeds.
++ 00:22:48.840,00:22:52.360 Sure enough, one can enjoy more just in the beauty rather than far away.
++ 00:22:56.660,00:22:58.660 Now seed pods are quite hard to find.
+- 00:22:59.300,00:23:02.020 I wonder how Your Lordship collected so many lotus flowers?
+?                           ^^^^^^^^^^                        --              ----- -
++ 00:22:59.300,00:23:02.020 How can Your Lordship collect so many lotuses?
+?                           ^  ++++
+- 00:23:02.340,00:23:04.940 This is the last harvest for the summer.
+?                       ^^                   ^^^^ -  ^^^   ^
++ 00:23:02.340,00:23:04.800 This is the last bouquet in this summer.
+?                       ^^                   ^^^^^   ^^   ^^
+- 00:23:05.180,00:23:08.040 I rowed deep into the lotus field and that was all I could collect.
++ 00:23:05.440,00:23:08.040 I rafted into the deep blossom only collected this amount.
+- 00:23:09.040,00:23:11.740 Your Lordship is fond of lotus?
+?                     ^ ^^                 ^^^^^^^^^
++ 00:23:09.040,00:23:10.820 Do Your Lordship like lotus?
+?                     ^ ^^ +++               + ^^
+- 00:23:12.100,00:23:15.800 I thought men would prefer pine and bamboo.
+?                        -    ^^^^^^^     --  ^
++ 00:23:12.100,00:23:15.080 It seems men usually prefer pine and bamboo.
+?                       +    + ^^^^^      +++ ^^
+- 00:23:16.060,00:23:18.200 Pine and bamboo are stiff and susceptible to fracture.
+?                                               ^  ^^^^^^^^^^^ ---- ^
++ 00:23:16.060,00:23:18.200 Pine and bamboo are hard, but likely to be fractured.
+?                                               ^^^^^^^^ ++ ^  ^   +++         +
+- 00:23:18.600,00:23:21.480 By comparison, the lotus surfaces untainted from the mud.
+- 00:23:22.500,00:23:25.240 While lotus is praised for its purity,
++ 00:23:18.600,00:23:21.120 On the contract, growing out of mud, the lotus blooms untainted.
++ 00:23:22.500,00:23:24.500 While the purity of lotus is widely complimented,
+- 00:23:26.220,00:23:28.540 I like it more for its Buddha-like nature.
+?                       ^^    ^^^^^^^^^^  - ^           --- ^^
++ 00:23:26.220,00:23:28.220 I prefer its Buddhism nature.
+?                       ^^    ^   ^            ^^
+- 00:23:29.700,00:23:32.320 As gentle as a loving mother.
+?                     ^ ^^  ^^ ^ -------
++ 00:23:29.700,00:23:31.700 Mild like a loving mother.
+?                     ^ ^^  ^^^^ ^^^
+- 00:23:33.640,00:23:36.700 I agree, My Lady.
+?                       ^          ---------
++ 00:23:33.640,00:23:36.400 Yes, I agree.
+?                       ^  +++++
+- 00:23:42.980,00:23:45.760 I seem to have smelled pollia?
+?                       ^^   - ---  ^ - --      -- ^
++ 00:23:42.980,00:23:45.500 Is there a smell of Pollia?
+?                       ^^      ^^^^         ^^^^
+- 00:23:46.200,00:23:48.700 But it shouldn’t be in this season.
+?                       ^^
++ 00:23:46.200,00:23:48.520 But it shouldn’t be in this season.
+?                       ^^
+- 00:23:50.400,00:23:53.620 You have a sensitive sense of smell, My Lady.\nIt is my sachet.
++ 00:23:50.400,00:23:53.280 Sensitive sense, Lady. It belongs to me.
+- 00:23:53.840,00:23:55.880 Pollia is a symbol of love.
+?                                  ^  ^^^^^^ ^^^^
++ 00:23:53.840,00:23:55.880 Pollia stands for love.
+?                                  ^^^^^  ^ ^
+- 00:23:57.800,00:24:00.700 Does Your Lordship have someone in your heart?
+?                  ^ ^^ ^     --                            ^^^^ ^^^^ ^^^
++ 00:23:57.800,00:23:59.800 Do Your Lordship have someone beloved?
+?                  ^ ^^ ^                                 ^^^ ^ ^
+- 00:24:07.840,00:24:11.440 It is a real pleasure to be in a boat with a beauty.
+- 00:24:12.100,00:24:15.840 It makes me feel as if I was boating on Lake Tai with\nXi Shi [one of the ancient Four Beauties].
+- 00:24:17.880,00:24:21.980 Your Lordship, I would be angry if I\ndidn't know you intended it to be a compliment.
++ 00:24:07.840,00:24:10.880 It is a real enjoyment boating with a beauty today,
++ 00:24:12.100,00:24:15.840 which resembles the story of boating on the Lake Tai with Xishi.
++ 00:24:17.880,00:24:19.880 I would be angry,
++ 00:24:20.220,00:24:22.740 if I didn’t know what Your Lordship really wanted to express.
+- 00:24:22.740,00:24:25.100 Please do not compare me to Xishi.
+?                           ^     ---                 ^      ^
++ 00:24:22.740,00:24:25.100 Could Your Lordship please not compare me with Xishi?
+?                           ^^^^^^^^^^^^^^^^^^^^^                     ++ ^      ^
+- 00:24:25.340,00:24:29.600 Why? Do you also think Xi Shi caused the fall of the Kingdom of Wu?
+- 00:24:30.560,00:24:32.760 If you say Xi Shi is the cause of Wu's downfall,
++ 00:24:25.100,00:24:27.840 Why? Do you also regard Xishi as Helen of Troy,
++ 00:24:28.020,00:24:30.560 just like the vulgar ones?
++ 00:24:30.560,00:24:32.660 If Xishi is accused of breaking down Kingdom Wu,
+- 00:24:32.960,00:24:35.560 who should be the culprit for the collapse of the Kingdom of Yue?
+?                     ^ ^^                                                ---------------
++ 00:24:32.960,00:24:34.720 who should be the culprit for the collapse of Yue?
+?                     ^ ^^
+- 00:24:36.300,00:24:40.280 Lady Sourire is a sensible person.\nWhy would you say that?
++ 00:24:36.300,00:24:39.380 Lady Sourire is always courteous. Why did you say that?
+- 00:24:40.920,00:24:43.040 Fan Li was Xi Shi’s lover.
+?                     ^ ^^     ^^ ^^^^   ^^          -
++ 00:24:40.920,00:24:42.920 Fanli, Xishi’s lover
+?                     ^ ^^     ^ ^   ^
+- 00:24:43.200,00:24:45.940 But he sent Xi Shi to be a concubine of the King of Wu.
++ 00:24:42.920,00:24:45.820 was exactly the person who sent Xishi to Kingdom Wu as a concubine.
+- 00:24:46.280,00:24:48.740 What a heartless man!
+?                       ^^         ^^^^^  --    ^
++ 00:24:46.280,00:24:48.280 What a fickle man.
+?                       ^^         ^^^^      ^
+- 00:24:49.540,00:24:53.500 When Xi Shi harbored no grudge\nand went boating with him on Lake Tai,
+- 00:24:53.620,00:24:58.760 I believe she no longer felt affectionate as before.
++ 00:24:49.540,00:24:53.160 Later Xishi disregarded previous enmity and went boating with Fanli on the Lake Tai.
++ 00:24:53.160,00:24:58.400 However, I believe the pure affectionateness at first sight must have disappeared.
+- 00:25:02.440,00:25:05.640 People either sympathize with Xi Shi or blame the King of Wu.
+?          ^^           ^                        ^^^ ^^^^   ^^          ----
++ 00:25:02.600,00:25:05.440 People either pour sympathy on Xishi, or blame King of Wu.
+?          ^^           ^                 +++++       ^ ^^   ^  +
+- 00:25:07.020,00:25:09.640 But they never criticize Fan Li.
+- 00:25:13.100,00:25:17.600 My Lady, I feel inferior to your unique perspective.
+- 00:25:25.200,00:25:28.700 The moonlight glazes silver on the lake.\nWhat a beautiful scene for a memorable time!
+- 00:25:28.860,00:25:32.080 "What a beautiful scene for a memorable time ...\nto the dullness of  my garden and my mind."
++ 00:25:07.020,00:25:09.020 But Fanli is out of blame.
++ 00:25:13.100,00:25:17.340 I’m ashamed of my inferiority in front of your special idea.
++ 00:25:25.200,00:25:26.780 The moonlight pours down like silver.
++ 00:25:26.940,00:25:28.860 Wonderful moment and beautiful scene are really precious.
++ 00:25:28.860,00:25:31.360 In spite of wonderful moment and beautiful scene, I’ve no mood to enjoy it.
+- 00:25:32.100,00:25:34.440 Your Lordship has also read The Peony Pavilion?
+?         ---         ^ ^                 ----          ^
++ 00:25:31.920,00:25:33.940 Have Your Lordship also read the Peony Pavilion?
+?        +++          ^ ^  +++++                         ^
+- 00:25:35.100,00:25:37.220 My favorite line is
+- 00:25:37.600,00:25:43.500 "Love springs from an unknown origin\nand courses deep to an infinite end. "
+- 00:25:46.300,00:25:51.000 "It empowers the alive to die,\nand revives the dead to life."
+- 00:25:54.800,00:25:56.820 Love ...
+- 00:25:57.220,00:26:04.100 It has an unseekable source.
+- 00:26:05.000,00:26:08.500 Love goes from an unknown start to an unforeseeable end.
+- 00:26:09.120,00:26:13.000 Your Lordship will be fortunate to find someone\nyou deeply and infinitely love.
+- 00:26:13.560,00:26:18.820 Being with His Majesty from dawn to dusk,\nI wish we will have this type of love.
+- 00:26:25.360,00:26:28.020 Your Lordship dropped this.
++ 00:25:35.100,00:25:36.780 I love this sentence most:
++ 00:25:37.720,00:25:43.500 Love once begins, will never ends.
++ 00:25:46.680,00:25:50.760 It contains the power to kill, but also to revive.
++ 00:25:55.220,00:25:57.220 Love, is only one word.
++ 00:25:57.220,00:26:04.100 One who wants to seek its source, may be perplexed in chasing.
++ 00:26:05.000,00:26:08.500 Love always begins nowhere and ends nowhere.
++ 00:26:09.220,00:26:11.900 It’s a fortune for Your Lordship to find a beloved one.
++ 00:26:13.560,00:26:15.560 I accompany His Majesty from dawn to dusk.
++ 00:26:16.140,00:26:18.140 How I wish we could have this kind of love.
++ 00:26:25.500,00:26:26.820 You had dropped something your Lordship
+- 00:26:30.360,00:26:32.200 Thanks.
+?                      ---        -
++ 00:26:30.360,00:26:31.520 Thanks
+?                     +++
+- 00:26:37.160,00:26:39.160 This sachet is precious to me.
+?                                                  ^^^^^ ^
++ 00:26:37.160,00:26:39.160 This sachet is my preciousness
+?                                          +++        ^ ^^
+- 00:26:40.100,00:26:42.800 It would be a great regret if I lost it.
+?          ^                    ^^ ^                               -
++ 00:26:40.800,00:26:42.800  It will be a great regret if I lost it
+?          ^                +    ^ ^
+- 00:26:43.680,00:26:45.460 It's just a sachet.
+?           -         ^ ^   ^^^^^^            -
++ 00:26:43.760,00:26:44.660 Just a sachet
+?          +          ^ ^   ^
+- 00:26:46.420,00:26:48.940 Your Lordship can't be serious.
+- 00:26:51.180,00:26:53.900 Since it is precious to Your Lordship,
++ 00:26:44.920,00:26:46.760 You’ve made it so seriously
++ 00:26:51.180,00:26:53.180 Since it is your Lordship's preciousness
+- 00:26:54.420,00:26:56.780 please don’t show it to anyone else.
+?                       ^^  ^^ ^^^                  --- ^ ^^^ --
++ 00:26:54.420,00:26:56.040 Then don’t show it to others
+?                       ^^  ^^ ^                   ^^ ^
+- 00:26:57.440,00:27:00.440 It might cause unnecessary trouble.
+- 00:27:22.580,00:27:24.360 May I ask Your Lordship a favor?
+- 00:27:24.600,00:27:25.800 Yes, My Lady.
+- 00:27:26.060,00:27:27.520 On the night of Qixi,
+- 00:27:27.680,00:27:31.060 I was plunged into trouble but fortunately\nConsort Honnête helped me out.
++ 00:26:57.440,00:26:59.300 Which may be troublesome
++ 00:27:22.580,00:27:23.960 May I pardon you with a thing
++ 00:27:24.220,00:27:25.200 Please talk freely
++ 00:27:25.780,00:27:27.240 The night at QiXi's banquet
++ 00:27:27.680,00:27:28.840 I was once plunged into a trouble
++ 00:27:28.840,00:27:30.920 But fortunately saved by Consort Honnête
+- 00:27:31.800,00:27:35.100 Hence no matter what Your Lordship has heard about that night,
+?          ^^         ^ ^^  ^^^^^                ^            ----                       -
++ 00:27:31.260,00:27:34.720 So no matter what your Lordship heard about that night
+?          ^^         ^ ^^  ^^                ^
+- 00:27:35.520,00:27:38.060 please don’t mention that we met.
+- 00:27:39.140,00:27:40.960 Same with tonight.
++ 00:27:35.220,00:27:37.680 Don’t ever mention our encounter
++ 00:27:38.520,00:27:40.520 So as tonight
+- 00:27:41.940,00:27:45.660 I will be immensely grateful if Your Lordship agrees.
+?        ^            ^               - ^ ^^^^^             ^                  ^^
++ 00:27:40.940,00:27:44.660 I will be more that grateful if your Lordship agree with it
+?        ^            ^                ^^ ^^^^^             ^                  ^^^^^^^^
+- 00:27:46.880,00:27:48.780 I won’t tell anyone else.
+?          ^^           ^^                          -
++ 00:27:46.660,00:27:48.240 I won’t tell anyone else
+?          ^^           ^^
+- 00:27:49.100,00:27:51.420 It was my pleasure to speak freely with you, My Lady.
+- 00:27:51.880,00:27:55.660 If I had the honor, I should invite you\nto my Cooling Terrace one day
+- 00:27:56.180,00:27:57.260 to talk more about history and literature.
+- 00:27:57.460,00:27:58.700 The summer has just passed.
+- 00:27:58.960,00:28:00.660 The Cooling Terrace might be a bit too chilly for now.
+- 00:28:00.780,00:28:02.520 I should not bring Your Lordship more trouble.
+- 00:28:11.220,00:28:13.040 Goodbye.
+- 00:28:28.560,00:28:30.000 My Lady, you've finally come back!
++ 00:27:49.160,00:27:50.580 It is such a honor to speak glowingly with you my Lady
++ 00:27:51.880,00:27:53.880 If your are available one day
++ 00:27:54.200,00:27:55.800 I would invite you to the Cooling Hall
++ 00:27:56.120,00:27:56.840 To talk about ancient and modern times
++ 00:27:56.840,00:27:57.920 Summer has just past
++ 00:27:57.920,00:27:59.920 It too cool for the Cooling Hall
++ 00:28:00.540,00:28:01.700 I shall not come to bother
++ 00:28:10.780,00:28:11.960 Goodbye
++ 00:28:28.560,00:28:30.140 You eventually arrived back my Lady
+- 00:28:30.140,00:28:32.200 Jade, pour some water for me.
+?          ^^               ^^^^^^^               ^^^^^ -
++ 00:28:30.260,00:28:32.200 Pour me some water Jade
+?          ^^               ^   +++            ^^^
+- 00:28:37.620,00:28:39.900 Did everything go well, My Lady?
+?          ^^           ^   ^^^^^          ---   ^^ ^
++ 00:28:37.480,00:28:39.400 Everything went smoothly my Lady?
+?          ^^           ^   ^            +++++++++ ^ ^
+- 00:28:40.200,00:28:43.660 I was very worried about you when you were out for so long.
++ 00:28:40.200,00:28:43.660 I worried about you since you haven’t came back at such a late night
+- 00:28:44.840,00:28:46.760 What were you worrying about?
+?        ^ ^^           ^        ^^                     -
++ 00:28:43.660,00:28:46.960 What are you worrying about
+?        ^ ^^           ^        ^
+- 00:28:47.400,00:28:49.400 Your safety, My Lady.
+?                        -             - ^      -
++ 00:28:47.400,00:28:49.140 Your safety my Lady
+?                       +               ^
+- 00:28:53.340,00:28:55.040 I was fine ...
+- 00:28:55.820,00:28:57.660 but Consort Fleur wasn't.
+?        ^ ^            --                        ^ -
++ 00:28:54.020,00:28:57.000 I was just fine but Consort Fleur was not
+?        ^ ^             ++++++++++++++++++                      + ^
+- 00:28:58.260,00:29:00.200 She was scolded by His Majesty
++ 00:28:57.660,00:28:59.940 The emperor scolded her
+- 00:29:00.360,00:29:02.700 and prohibited from seeing Princess Wenyi again.
+?                       ^^  ^   ^ ^ ---- ^                         ^ -------
++ 00:29:00.360,00:29:02.460 And forbade her from seeing Princess WenYi
+?                       ^^  ^   ^^ ^^^^^  ^                         ^
+- 00:29:04.700,00:29:07.620 His Majesty was considering to reinstate\nher authority in palace management.
+- 00:29:08.240,00:29:11.400 But now, she seems to be in a precarious position.
+- 00:29:12.700,00:29:14.960 His Majesty scolded Her Highness?
++ 00:29:04.160,00:29:06.040 The emperor was considering to resume her
++ 00:29:06.040,00:29:07.960 the authority in assistance in palace affairs
++ 00:29:08.520,00:29:11.400 Now  it seems that she couldn’t even save herself
++ 00:29:11.960,00:29:14.220 The emperor scolded Consort Fleur
+- 00:29:15.840,00:29:16.940 Yes.
+?          ^^           ^^     -
++ 00:29:15.500,00:29:16.520 Yes
+?          ^^           ^^
+- 00:29:17.860,00:29:20.380 She "wasted a handful of rice\nwhen she failed to steal the chicken".
+- 00:29:20.900,00:29:22.940 You reap what you sow.
++ 00:29:17.860,00:29:20.240 She had to blame herself for the penny wise pound foolish action
++ 00:29:20.980,00:29:22.160 Harming won’t bring one's good
+- 00:29:23.440,00:29:27.040 Am I right, Jade?
+?                     ^ ^^            -     -
++ 00:29:23.440,00:29:26.580 Am I right Jade
+?                     ^ ^^
+- 00:29:29.660,00:29:32.160 Absolutely, My Lady.
+- 00:29:38.880,00:29:42.820 Jade, lately you have been exhausted physically and mentally.
++ 00:29:29.660,00:29:31.660 What you have said is undoubtedly right
++ 00:29:38.880,00:29:42.820 You have been labored and toiled with mind and body these days Jade
+- 00:29:43.280,00:29:45.320 I recognize your hard work.
+?        ^  -           ^^     -------                -
++ 00:29:42.820,00:29:45.180 I admire your hard work
+?        ^ +            ^^    ++++
+- 00:29:46.140,00:29:49.520 My Lady, I don't deserve you saying that.
+- 00:29:51.140,00:29:55.480 When Lady Cao tried to drive a wedge between\nHis Majesty and me in the Governance Hall,
+- 00:29:56.900,00:30:00.400 I suspected that it was someone close to me who leaked the story.
+- 00:30:01.520,00:30:03.900 Today when I had barely stepped out of\nthe Verdant Reading Hall,
+- 00:30:04.120,00:30:06.660 this keen messenger absented herself immediately.
+- 00:30:07.240,00:30:08.820 Now tell me,
++ 00:29:46.140,00:29:49.220 Why did you say that my Lady, I can’t bear it
++ 00:29:50.840,00:29:54.340 Lady Cao stirring up with the fact that emperor pretended to be Lord XVII to meet me
++ 00:29:56.460,00:29:58.560 At that time I suspected that it was someone close to me
++ 00:29:58.860,00:30:00.860 Who let out the secret
++ 00:30:01.520,00:30:03.160 Today the instant I stepped out Bitong Shuyuan
++ 00:30:03.160,00:30:06.100 Someone went out to send a secret message
++ 00:30:06.800,00:30:08.660 I couldn’t believe that
++ 00:30:09.420,00:30:10.840 Consort Fleur knew it already
+- 00:30:09.420,00:30:13.820 how did Consort Fleur know\nI was going to the Leisured Moon Chamber?
+?        -  -         ^ ^^  ----------------------------                                        -
++ 00:30:10.840,00:30:14.160 I was going to the Leisured Moon Chamber
+?       +  +          ^ ^^
+- 00:30:15.440,00:30:18.920 I am not the only person who knows\nyou were going to visit Meizhuang.
+- 00:30:19.360,00:30:21.460 My Lady, how could you tell that I was the messenger?
+- 00:30:21.840,00:30:23.760 You did act cautiously
+- 00:30:25.280,00:30:26.680 but you neglected one thing.
++ 00:30:15.140,00:30:17.360 I am not the only person to know
++ 00:30:17.360,00:30:19.360 My Lady went to Lady Meizhuang's.
++ 00:30:19.360,00:30:23.360 Why My Lady thinks it was me(who leaked out the secret)?
++ 00:30:23.360,00:30:25.360 Definitely you are prudent.
++ 00:30:25.360,00:30:26.960 But one thing was neglected.
+- 00:30:26.680,00:30:27.920 What is it?
+?           -           ^^      ------
++ 00:30:26.960,00:30:27.460 What?
+?          +            ^^
+- 00:30:30.840,00:30:34.960 The tributary Emerald Honey was an exclusive gift from His Majesty
++ 00:30:30.840,00:30:32.840 The tributary Mi He spice.
++ 00:30:32.840,00:30:34.620 His Majesty gave it all to me.
+- 00:30:35.340,00:30:37.420 and I gave all of it to Lady Cao.
+?        ^ ^^         ^ ^   ^             ------
++ 00:30:34.620,00:30:36.620 And I in turn gave it all to Lady Cao.
+?        ^ ^^         ^ ^   ^    ++++++++      +++
+- 00:30:37.960,00:30:40.260 I saw her keeping it in her inner chamber.
+?                    ^^ ^             ---             -
++ 00:30:37.960,00:30:39.960 I myself saw her putting it in the inner chamber.
+?                    ^^ ^    +++++++          +++          +
+- 00:30:41.460,00:30:44.200 If you say you were never disloyal to me,
++ 00:30:41.600,00:30:43.600 If you didn't have disroyalty as you said.
+- 00:30:44.560,00:30:46.560 how could you enter her inner chamber?
+?        ^ -          ^ -   ^             ^^ ^^
++ 00:30:43.600,00:30:45.600 How could you go to her inner chamber?
+?        ^  +         ^   + ^             ^^^ ^
+- 00:30:46.840,00:30:51.220 How could you be scented with the Emerald Honey?
++ 00:30:46.840,00:30:50.320 How could the odour of Mi He Spice linger on your clothes?
+- 00:30:52.520,00:30:53.660 I... I didn't.
+?          ^^           ^^      -
++ 00:30:52.100,00:30:53.140 I...I didn't.
+?          ^^           ^^
+- 00:30:53.800,00:30:55.480 If your mouth says no,
+- 00:30:55.880,00:30:59.360 use your nose to smell the Emerald Honey on yourself.
++ 00:30:53.140,00:30:55.140 If you don't admit,
++ 00:30:55.140,00:30:57.140 you can smell your clothes
++ 00:30:57.140,00:30:59.140 to see whether the fragrance exits.
+- 00:31:03.440,00:31:06.120 It takes days for the smell to fade
+?                      ^^^                        ^^^^^
++ 00:31:03.440,00:31:04.680 It takes days for the odour to subside(fade/vanish)
+?                     ++ ^                        ^^^^^    ++++++++    ++++++++
+- 00:31:06.680,00:31:08.960 despite its subtleness.
+- 00:31:11.220,00:31:13.220 Now, will you tell me the truth?
++ 00:31:04.740,00:31:05.940 once it adhere to your clothes.
++ 00:31:06.680,00:31:08.680 Besides, the fragrance is too faint to be noticed.
++ 00:31:10.920,00:31:12.920 Will you still tell the lie?
+- 00:31:16.200,00:31:17.680 My Lady.
+?        ^ ^            ^
++ 00:31:15.700,00:31:17.180 My Lady.
+?        ^ ^            ^
+- 00:31:20.320,00:31:22.320 But I have to thank you.
+?                                 ^ ^^
++ 00:31:20.320,00:31:22.320 But I want to thank you anyway.
+?                                 ^ ^^             +++++++
+- 00:31:22.740,00:31:27.580 Without your help, how could I have led her into this?
+- 00:31:29.220,00:31:32.780 Consort Fleur must be infuriated to the bone with you.
+- 00:31:33.540,00:31:36.320 She would probably think we set this up together.
+- 00:31:39.700,00:31:42.560 It's not the first time I had "a servant to two masters".
++ 00:31:22.320,00:31:24.320 Were it not for the fact that you tipped Consort Fleur off
++ 00:31:25.260,00:31:27.260 I wouldn't topple Consort Fleur today readily.
++ 00:31:28.880,00:31:32.360 I am afraid that Consort Fleur detest you now,
++ 00:31:33.540,00:31:35.540 considering it a good play co-directed by us.
++ 00:31:39.700,00:31:41.700 It is not uncommon to see traitorous maids.
+- 00:31:44.000,00:31:46.080 I just never thought that I would fall victim
+?                        ^                            ^   ^^  ----------
++ 00:31:44.000,00:31:46.000 I just never thought that the person who impaired me
+?                        ^                            ^^^^^^^^^^  + ^^^^^^^^   +
+- 00:31:46.360,00:31:48.080 to my own sister.
+?          ^^          ^^^  ^^   ----       -
++ 00:31:46.540,00:31:47.860 is my sister
+?          ^^         ++ ^  ^^
+- 00:31:51.260,00:31:52.440 You knew it?
+?          ^            ^^        ^  - ^
++ 00:31:51.660,00:31:52.380 You have known that.
+?          ^            ^^      +++++  ^ +  ^^^^
+- 00:31:52.660,00:31:54.800 Yes, for a long time.
++ 00:31:52.380,00:31:54.380 Yes, I have known it.
+- 00:31:55.480,00:31:57.880 Father told me before we moved into the palace.
+?                           ^                     ^  --------
++ 00:31:55.480,00:31:57.880 My father had told me before I came to the palace.
+?                           ^^^^     ++++                ^^^^^
+- 00:31:59.400,00:32:03.580 It hurts so much more knowing that you are my sister.
++ 00:31:58.980,00:32:00.820 It is because I know you are my sister
++ 00:32:01.220,00:32:03.000 that my heart hurts
+- 00:32:04.520,00:32:08.420 Father... What did father say?
+?                       ^^           ^^
++ 00:32:04.520,00:32:08.100 Father...what did father say?
+?                       ^^           ^
+- 00:32:10.400,00:32:12.940 He was sorry for everything he put you through.
++ 00:32:09.520,00:32:11.520 He said he had chargrined you for years
+- 00:32:12.940,00:32:14.580 and asked me to treat you well.
+?         ---         ^  ^      ^^^ ^   ---
++ 00:32:11.520,00:32:13.520 and let me treat you well.
+?        +++          ^  ^      ^ ^
+- 00:32:14.640,00:32:17.260 That is why I took you to the palace with me.
+?           -          - -
++ 00:32:14.560,00:32:16.720 That is why I took you to the palace with me.
+?          +          ++
+- 00:32:18.540,00:32:22.840 I have been looking for a decent family for you\nto be married as a primary wife.
++ 00:32:18.220,00:32:20.420 Find a decent family for you.
++ 00:32:20.420,00:32:22.420 You marry him as his legal wife.
+- 00:32:23.860,00:32:25.620 If you stayed home,
+?                        -             ^^
++ 00:32:23.860,00:32:25.860 If you stay at home,
+?                       +              ^^^
+- 00:32:25.840,00:32:27.660 you would marry a servant at most in the future.
+?           ^           ^        ^^ ^                        --------------
++ 00:32:25.860,00:32:27.860 you will marry a manservant at most.
+?           ^           ^        ^ ^         +++
+- 00:32:28.100,00:32:30.100 That will encumber you for the rest of your life.
++ 00:32:27.860,00:32:29.860 Your marriage will be your lifelong encumberance.
+- 00:32:30.940,00:32:31.920 My Lady ...
+?          ^^           ^^         - --
++ 00:32:30.620,00:32:31.600 My Lady.
+?          ^^           ^^
+- 00:32:32.120,00:32:33.760 I am not your master.
++ 00:32:31.600,00:32:33.600 Do you still call me My Lady?
+- 00:32:34.260,00:32:36.380 I am your elder sister.
+?                       ^^  ^^^^^^  - ^   -
++ 00:32:34.260,00:32:36.260 You should call me sister.
+?                       ^^  ^   ^^^^  +++++++
+- 00:32:38.960,00:32:41.160 I know you are not reconciled to being a maid.
+?                     ^ ^^                                 -------  ^^^^^
++ 00:32:38.960,00:32:40.380 I know you are not reconciled at all.
+?                     ^ ^^                                +   ^^
+- 00:32:41.960,00:32:45.720 Your name is not included in the pedigree book.
+- 00:32:47.080,00:32:49.300 Your name doesn't have the character 玉(yu) like my sister Yurao.
+- 00:32:49.940,00:32:53.900 Even your mother's memorial tablet\ncannot be enshrined in the ancestral hall.
+- 00:32:55.560,00:32:59.920 But Jade, father always has your welfare at heart.
+- 00:33:00.600,00:33:03.700 So do I as your elder sister.
++ 00:32:41.700,00:32:43.560 Although you are father's daughter,
++ 00:32:44.240,00:32:46.060 there isn't your name in the pedigree.
++ 00:32:47.080,00:32:49.080 You cannot be named with the word generation Yu, either.
++ 00:32:49.700,00:32:51.660 Even your mother's memorial tablet
++ 00:32:52.160,00:32:54.160 cannot be worshiped in the ancestral hall.
++ 00:32:55.120,00:33:00.220 But Jade, father has you in his heart.
++ 00:33:00.220,00:33:02.720 I, as your older sister, have you in my heart.
+- 00:33:04.780,00:33:07.260 No matter how well you treated me,
+?          ^^          ^^^                              --
++ 00:33:04.200,00:33:06.740 No matter how well you treat me,
+?          ^^         ++ ^
+- 00:33:07.360,00:33:10.300 we are in an aggressively competitive harem.
+- 00:33:11.040,00:33:14.420 How could I stand out if no one introduces me to His Majesty?
++ 00:33:07.360,00:33:09.940 in this agonistic imperial harem,
++ 00:33:11.040,00:33:13.040 if no one can recommend me,
++ 00:33:13.040,00:33:15.040 I will never see the daylight.
+- 00:33:15.120,00:33:17.660 Do you really believe Lady Cao was helping you?
+?          ^^           ^^        -------                   ^^ ^ ^^^ ^
++ 00:33:15.040,00:33:17.280 Do you believe Lady Cao will recommend you?
+?          ^^           ^^                           ^^^ ^ ^^^^^ ^
+- 00:33:18.940,00:33:22.840 Concubine Beauté and Escort Yu are\ngood examples of being a cat's paw.
+?                       ^                                     ^^                   -----
++ 00:33:18.940,00:33:22.140 Concubine Beauté and Escort Yu are good examples of miserable cat's paw.
+?                       ^                                     ^                 ++++++ +
+- 00:33:23.960,00:33:27.740 At the very least, even if you had gained favor from His Majesty,
+- 00:33:28.440,00:33:32.340 did you ever see "a flower that would not fade" in the harem?
+- 00:33:33.960,00:33:37.600 Did you think of the consequences of\nyour mother's identity being disclosed?
++ 00:33:23.960,00:33:25.960 At the very least,
++ 00:33:25.960,00:33:27.960 even if you are endowed with favor,
++ 00:33:28.440,00:33:31.980 it won't last permanently.
++ 00:33:33.760,00:33:36.300 Once the reality is enclosed that your mother's father is the former convict.
++ 00:33:36.540,00:33:38.540 Do you know what will happen?
+- 00:33:38.540,00:33:41.460 Not only would the Zhen family be implicated,
+?                     ^  -          ------                              -
++ 00:33:38.540,00:33:40.540 Not only the Zhen family will be implicated
+?                     ^ +                            +++++
+- 00:33:41.860,00:33:45.620 our father will also be banished to Ningguta\n[a remote and cold border town for criminals].
+- 00:33:46.660,00:33:48.400 I had no intentions like that!
++ 00:33:41.340,00:33:45.100 but our father will be banished to the Tower Ninggu as well
++ 00:33:45.100,00:33:46.400 for the accusation of marrying a convict's daughter.
++ 00:33:46.400,00:33:48.400 I didn't intend to impair you and our father.
+- 00:33:48.700,00:33:50.400 Nor did I want to compete with you.
+?          ^                ^^^     ^^^  -        ^^
++ 00:33:48.400,00:33:50.400 I didn't mean to compare with you, either.
+?          ^                ^    +++ ^^          ^^          ++++++++
+- 00:33:50.620,00:33:53.500 Lady Cao said His Majesty liked you so much
+?          ^^                                                    ^^^^^^
++ 00:33:50.400,00:33:53.500 Lady Cao said His Majesty liked you exclusively.
+?          ^^                                                   +++++ ^^^^^^
+- 00:33:54.720,00:33:57.700 that he would not severely penalize you for any mistakes.
+- 00:33:58.460,00:34:00.700 He would just confine you for  half a month at most.
+- 00:34:01.220,00:34:02.740 As for me ...
++ 00:33:54.520,00:33:56.180 Even if he knew you had made mistakes,
++ 00:33:56.180,00:33:58.180 he won't castigate you.
++ 00:33:58.180,00:33:59.900 Penting you up for ten days is the most.
+- 00:34:03.120,00:34:05.700 I would stand a chance to approach His Majesty
+?         ^^^           ^ ^    ^^ ^                    ----- ^
++ 00:34:01.300,00:34:05.320 As for me, I will stand a chance to access His Majesty
+?        ++ ^           ^^ ^^^^^^^^^^^    ^ ^                     ^^^^
+- 00:34:06.060,00:34:07.920 because I resemble you a little bit.
+?                     ^ ^^          ^                          -
++ 00:34:06.060,00:34:08.180 because my face resembles yours a little bit
+?                     ^ ^^          ^^^^^^^         +    ++
+- 00:34:08.340,00:34:10.340 How could you trust her nonsense?
+?          ^^           ^^                ^   ^
++ 00:34:08.180,00:34:10.180 How could you be credulous od her nonsense?
+?          ^^           ^^                ^^^^ +++++  ^^^
+- 00:34:10.920,00:34:14.180 I have already been "walking on the tip of their knives"\neven if I have done nothing wrong.
+- 00:34:15.480,00:34:17.620 If His Majesty was mad at me,
+- 00:34:17.620,00:34:20.760 your face would only provoke exasperation.
+- 00:34:22.020,00:34:25.640 You would be very lucky to not incur the death penalty.
++ 00:34:10.920,00:34:12.520 I have already lived in their menace
++ 00:34:12.520,00:34:14.520 despite I did nothing wrong.
++ 00:34:14.520,00:34:16.520 If His Majesty is really irritated by me,
++ 00:34:17.240,00:34:20.740 your face will only entail his aversion.
++ 00:34:20.740,00:34:22.740 You could only escape death by sheer luck.
+- 00:34:29.240,00:34:31.720 I... I was indeed possessed by the devil.
+?          ^^           ^^ -----
++ 00:34:29.180,00:34:31.180 I was indeed possessed by the devil at that time.
+?          ^^           ^^                                     +++++++++++++
+- 00:34:34.440,00:34:39.620 Your momentary thought almost shattered the bond of our sisterhood.
++ 00:34:34.440,00:34:39.560 Your miscalculation at that moment almost breaks our relationship apart.
+- 00:34:42.980,00:34:46.340 Do you know that I feel envious of you sometimes?
+?                       ^                      ^^^                     ^^^^
++ 00:34:42.980,00:34:46.140 Do you know that I'm also envious of you in some ways?
+?                       ^                     ++ ^ ++                +++    ^^^^
+- 00:34:47.900,00:34:51.780 My life is destined and I can't escape my fate.
+- 00:34:53.220,00:35:00.240 But you still have the chance to choose\nsomeone to love and grow old and gray with.
+- 00:35:03.000,00:35:07.860 Although I can't acknowledge you as my sister in the palace,
+- 00:35:08.800,00:35:12.060 I am planning to make you father's honorary daughter\n[like a goddaughter but not religious]
+- 00:35:12.120,00:35:13.860 so that you will be married from the Zhan family.
++ 00:34:47.900,00:34:50.640 Unlike you, my fate is destined.
++ 00:34:50.780,00:34:52.300 I can't escape it.
++ 00:34:53.220,00:35:00.240 But you still have the chance to spend the rest of your life with someone you genuinely love.
++ 00:35:03.000,00:35:07.860 In the palace, although I can't treat you like a sister,
++ 00:35:08.800,00:35:13.400 I will make you the adoptive daughter of our father and be married from the family of Zhen.
+- 00:35:14.280,00:35:18.080 Your mother's memorial tablet\nwill be placed in the family ancestral hall
+?                     ^ ^^                               ^^^^ ^                  -------
++ 00:35:14.280,00:35:17.920 Your mother's memorial tablet could be placed in the ancestral hall of Zhen.
+?                     ^ ^^                               ^^^^ ^                                +++++++++
+- 00:35:18.820,00:35:20.880 and your named will be written in the pedigree book.
+?                        ^  ^              ^^ ^                   ^^^ ^   -----
++ 00:35:18.820,00:35:20.820 And your named could be written in the family tree.
+?                        ^  ^              ^^^ ^                   ^^^ ^^^^
+- 00:35:21.460,00:35:23.960 I hope your wish will be fulfilled.
+?                       -   ^^ --            ^^ ^    ^^ - ^^
++ 00:35:21.460,00:35:23.600 Then your wish could be realized.
+?                         + ^  +           ^^^ ^    ^^^  ^
+- 00:35:24.860,00:35:27.720 Huan, I was such a fool.
+- 00:35:28.120,00:35:31.980 I didn't know you were so kind and considerate to me.\nI made a terrible mistake.
++ 00:35:24.380,00:35:27.720 Old sister, I'm insane.
++ 00:35:28.120,00:35:31.540 Had I known your attentiveness to me, I wouldn't have make such a big mistake.
+- 00:35:32.480,00:35:36.700 Yurao is still young and we don't have any brothers in the family.
+?                       ^                            ---------------------         ^^^
++ 00:35:32.480,00:35:36.400 Yurao is still young and there's no boy in our family.
+?                       ^                                ++ +++++++    ^^^
+- 00:35:37.400,00:35:40.960 We have to rely on each other.
+- 00:35:41.980,00:35:45.640 If we get turned against each other by our enemy,
++ 00:35:37.400,00:35:40.700 She could rely on nobody but us.
++ 00:35:41.980,00:35:45.640 If discord is sowed between us by the evil\nand lose our trust,
+- 00:35:46.020,00:35:48.180 there would be no hope for our family.
+?                       ^^       ^^^^^^^^^
++ 00:35:46.020,00:35:48.020 there's no hope for our family's glory.
+?                       ^^       ^^                       ++++++++
+- 00:35:48.680,00:35:51.420 I didn't live up to your expectations.
+?                     ^ ^                             -----------
++ 00:35:48.680,00:35:52.920 I didn't live up to you, please forgive me.
+?                     ^ ^                          +++++++++++ ++++ +
+- 00:35:51.700,00:35:53.640 Please forgive me.
+- 00:35:55.040,00:35:59.040 You didn't tell Consort Fleur about your mother, did you?
+?                     ^  -
++ 00:35:55.040,00:35:58.700 You didn't tell Consort Fleur about your mother, did you?
+?                     ^ +
+- 00:35:59.720,00:36:02.940 I only wanted to use a chance to attract His Majesty's attention.
+?                       ^^                       ^ ^^  ^^    ^^^  ^^
++ 00:35:59.720,00:36:02.760 I only wanted to use Consort Fleur and Lady Cao to draw His Majesty's attention.
+?                       ^^                       ^^^^^^^ ^^^^^^  ^^^^^^^^^^    ^  ^
+- 00:36:03.560,00:36:05.820 I had no intention to soil the name of our family.
+- 00:36:06.280,00:36:09.960 I didn't dare to tell them about such an important thing.
++ 00:36:03.560,00:36:05.560 I didn't mean to do harm to you.
++ 00:36:06.080,00:36:07.900 My mother's identity is very important.
++ 00:36:08.400,00:36:10.340 I didn't dare to tell them.
+- 00:36:10.660,00:36:12.440 It's fortunate that you didn't.
+?                      ---       ^^ ^ ^^^^
++ 00:36:10.660,00:36:11.920 It's very lucky that you didn't.
+?                     +++        ^^ ^^^ ^^^
+- 00:36:14.320,00:36:18.000 Consort Fleur will hold a grudge against you from now.
++ 00:36:14.320,00:36:18.000 Consort Fleur and her followers will definitely bear malice to you since today.
+  00:36:18.500,00:36:21.780 You have to be more than careful in days to come.
+- 00:36:22.560,00:36:25.500 I will never stop regretting the mistake I made.
+- 00:36:27.060,00:36:29.400 Please don't worry about me.
+- 00:36:34.280,00:36:36.860 It's cold at night already.\nThere aren't any mosquitos now.
++ 00:36:22.560,00:36:24.340 I have already made a mistake.
++ 00:36:24.580,00:36:25.940 I'm more than regretful.
++ 00:36:26.740,00:36:28.340 Please trust me this time.
++ 00:36:33.920,00:36:36.200 It's getting cold early here, and mosquitos are dying out.
+- 00:36:37.400,00:36:40.100 We will soon return to the palace for the Mid-Autumn Festival.
+?                           ^   ^^^^^^^^                      ^^^
++ 00:36:37.400,00:36:40.100 The day we return to the palace will be the Mid-Autumn Festival.
+?                           ^^  ++++ ^                      ^^^^^^^
+- 00:36:40.860,00:36:42.700 My Lady ...
+?                       ^^         -
++ 00:36:40.860,00:36:42.420 My Lady.......
+?                       ^^            ++++
+- 00:36:44.800,00:36:46.920 You look worried, My Lady.
++ 00:36:44.800,00:36:46.380 What are you worrying about?
+- 00:36:49.500,00:36:53.760 I find that His Majesty holds great respect for Concubine Estime.
+?        ^ ^^           ^^                          -------   ^        ^^^^           ^^^ ^^
++ 00:36:48.840,00:36:53.180 I find that His Majesty really respects Concubine Jing.
+?        ^ ^^           ^^                             ^^^        ^           ^ ^^
++ 00:36:55.940,00:37:02.120 Concubine Jing earns her respect for her grace and obedience.
++ 00:37:02.920,00:37:08.780 His Majesty doesn't favor her but treats her with respect.
+- 00:36:55.940,00:37:02.120 Concubine Estime shows high virtue and gentle modesty.
+- 00:37:02.920,00:37:06.680 His Majesty doesn't ... have much affection for her.
+- 00:37:06.900,00:37:09.040 It's at most courtesy and respect.
+- 00:37:09.600,00:37:13.740 In the palace, many people hide their light under a bushel.
++ 00:37:09.600,00:37:13.740 In the palace, many people have hidden their light under a bushel.
+?                                                       +++++  + +
+- 00:37:14.700,00:37:19.880 If she was no one to His Majesty, how could she have\nlived all these years peacefully under Consort Fleur?
+- 00:37:22.860,00:37:26.540 I think Lady Cao is more suspicious in this incident.
+- 00:37:28.300,00:37:30.380 If you think about it, My Lady,
++ 00:37:14.700,00:37:19.880 If she really has no light, how could she have lived undisturbed for so long under Consort Fleur?
++ 00:37:22.020,00:37:26.540 I think there's something wrong with Lady Cao in this incident.
++ 00:37:28.600,00:37:29.960 Think about it.
+- 00:37:30.380,00:37:35.900 although Consort Fleur is impetuous,\nLady Cao is a very cautious person.
+?           ^               ^                                   ^^            -------         ^ ^^^^
++ 00:37:30.340,00:37:35.900 Although Consort Fleur is impetuous, Lady Cao is cautious indeed.
+?           ^               ^                                   ^                     ^^^ ^^
++ 00:37:37.680,00:37:44.160 Even if you purposely sent Jade to report, how could Lady Cao didn't remind her to think twice?
++ 00:37:45.080,00:37:50.960 Is that because she did it purposely or she totally believed in what Jade has said?
+- 00:37:37.680,00:37:40.700 When Jade reported to her,
+- 00:37:40.700,00:37:44.160 how did she make Consort Fleur arrive so promptly?
+- 00:37:45.080,00:37:48.460 Did she not deliberate over the decision?
+- 00:37:48.700,00:37:51.480 Or did she completely believe Jade?
+- 00:37:52.300,00:37:56.560 Could it be that she instigated Consort Fleur to go?
+?                       ^^                        ^^^^^  --              ^^^
++ 00:37:52.300,00:37:56.200 Could it be that she connived at Consort Fleur's going?
+?                       ^^                       ++++ ^^^^                ^^   +++
++ 00:37:59.420,00:38:05.500 If Cao Qinmo didn't poison Princess Winyi, it must be Consort Fleur.
++ 00:38:07.480,00:38:12.860 Cao Qinmo has only one daughter she loves, so there's space between them.
+- 00:37:59.420,00:38:03.660 If Cao Qinmo didn't use the cassava starch  against me,
+- 00:38:04.380,00:38:06.640 it must be Consort Fleur.
+- 00:38:07.480,00:38:12.860 Doing this to Cao Qinmo's only child ...\nmight have caused a rift between them.
+- 00:38:13.420,00:38:15.360 I don't think that's impossible.
+?                       ^^   ------       ^^^    --
++ 00:38:13.420,00:38:15.120 I think it's possible.
+?                       ^^          ^
+- 00:38:16.720,00:38:21.780 If so, the game is more complicated than we thought.
+- 00:38:25.160,00:38:28.680 Please add more honey.\nMy Lady doesn't like it too sour.
++ 00:38:15.420,00:38:16.220 Mm.
++ 00:38:16.720,00:38:21.780 If it's true, then this round is far more complicated.
++ 00:38:23.020,00:38:28.000 Please put more honey, in case it's too sour.
+- 00:38:30.840,00:38:33.300 Xiao-Xiazi said that
+?                     ^ ^ ^            -----
++ 00:38:30.840,00:38:32.580 I heard from Xiao-Xiazi that
+?                     ^ ^^ ^^^^^^^^^^^^^
+- 00:38:33.500,00:38:38.180 Noble Prince Guo stopped visiting His Majesty\nand traveled to Central Sichuan.
++ 00:38:33.500,00:38:34.700 Noble Prince Guo recently
++ 00:38:34.700,00:38:36.000 seldom comes into palace for chess and paintings,
++ 00:38:37.000,00:38:38.500 but travels in Shu.
+- 00:38:38.500,00:38:40.400 What does it matter to us?
+?                    ^^ ^
++ 00:38:38.500,00:38:39.500 What does it matter to us?
+?                    ^^ ^
+- 00:38:40.400,00:38:42.640 A Noble Prince could go wherever he wants.
+?         --            ^^
++ 00:38:41.000,00:38:42.500 A Noble Prince could go wherever he wants to go.
+?        ++             ^^                                           ++++++
+- 00:38:43.000,00:38:47.080 Unlike us, all we can see is the square-shaped sky when we look up.
+- 00:38:47.500,00:38:49.100 Stop whining.
+- 00:38:49.320,00:38:51.820 You'd be complaining about having too many\nplaces to go once you get married.
+- 00:38:52.500,00:38:54.160 Look at you!
+- 00:38:54.300,00:38:56.240 Are you thinking about getting married?
++ 00:38:43.000,00:38:43.500 Unlike us, the square-shaped sky is all we can see
++ 00:38:43.500,00:38:47.000 when we look up.
++ 00:38:47.500,00:38:49.000 Look how whiny you are!
++ 00:38:49.000,00:38:51.000 You'd be free enough when you get married one day.
++ 00:38:52.500,00:38:54.000 Since marriage is all you talk about,
++ 00:38:54.000,00:38:56.000 it must be your wish!
+- 00:38:56.260,00:38:57.640 Stop it!
+?          ^^           ^^
++ 00:38:56.500,00:38:57.320 Stop saying that!
+?          ^^           ^^       +++ ++++++
+- 00:38:58.000,00:38:59.300 Or I'm gonna rip your mouth!
+- 00:38:59.440,00:39:01.720 Precious Buddha! Why are you so mad?
++ 00:38:57.320,00:38:59.000 Be careful of your mouth!
++ 00:38:59.000,00:39:01.000 Amitabha! Look at you!
+- 00:39:02.000,00:39:04.580 You would care so much about whether Noble Prince Guo visits ...
+?                       ^^  ^  ------             ------                          ^ ^^ ^ ^^^
++ 00:39:02.000,00:39:04.000 Since you care so much whether Noble Prince Guo come into palace,
+?                       ^^  ^^^^^^^                                         ^^^^^ ^ ^ ^^^^^^^
+- 00:39:04.760,00:39:06.940 How about marrying him?
+?          ^^           ^^  ^^^
++ 00:39:04.000,00:39:06.000 What about you marrying him?
+?          ^^           ^^  ^^^^      ++++
+- 00:39:07.580,00:39:09.140 Are you out of your mind?
++ 00:39:07.000,00:39:08.500 Such crazy words!
+- 00:39:09.140,00:39:11.040 I'll stop talking to you if you continue this nonsense.
+?          ^^            ^   ^   ^^ ^^^^^^^^^^^^
++ 00:39:09.000,00:39:11.000 I will ignore you if you continue this nonsense.
+?          ^^            ^   ^^^   ^^^ ^^
+- 00:39:11.180,00:39:12.940 Aiya, my good sister!
+- 00:39:13.100,00:39:14.760 Take it as a joke!
+- 00:39:15.000,00:39:19.240 Anyways, if it happens for you and His Lordship,\nit's never too late to thank me.
++ 00:39:11.000,00:39:12.000 Oh! My kind sister!
++ 00:39:12.000,00:39:14.000 I'm just kidding.
++ 00:39:15.000,00:39:16.500 Anyway, I will wait for your gratitude
++ 00:39:16.500,00:39:19.000 when my prediction comes true one day.
+- 00:39:19.500,00:39:21.560 Stop it! Nonsense!
+?                       ^^       - ^ ^
++ 00:39:19.500,00:39:21.000 Stop that nonsense!
+?                       ^^        ^^^ ^
+- 00:39:21.860,00:39:23.220 Stop running!
++ 00:39:22.000,00:39:23.000 Stop!
+- 00:39:23.260,00:39:25.000 What? Look at you all worried!
+?          ^^                                ------------
++ 00:39:23.000,00:39:25.000 What's wrong? Look at you!
+?          ^^                   ++++++++
+- 00:39:25.000,00:39:26.620 I said stop!
++ 00:39:25.000,00:39:26.000 Just stop that nonsense!
+- 00:39:27.500,00:39:30.180 Your Majesty, the Empress is still in the bath.
+?                       ^^       ^                       -------------
++ 00:39:27.500,00:39:30.000 Your majesty, the Empress is bathing and dressing.
+?                       ^^       ^                           ++++++++++++++++
+- 00:39:30.740,00:39:34.080 Your Majesty should sleep if you feel tired.
+?          ^^         ^  -     - ^ ---- -------
++ 00:39:30.000,00:39:32.500 You may sleep if you feel tired.
+?          ^^         ^ +       ^
+- 00:39:37.000,00:39:39.740 I am reading Su Shi's poems.
+?                       ^^                 ^^
++ 00:39:37.000,00:39:39.000 I am reading Sushi's poems.
+?                       ^^                 ^
+- 00:39:40.500,00:39:43.000 "The ten years since death parted us\nnever seemed to have an end in sight."
+- 00:39:43.080,00:39:45.060 "I resist thinking of you but I cannot forget."
+- 00:39:45.300,00:39:48.000 What a poem! It drills every word into my heart.
++ 00:39:40.500,00:39:42.500 Ten years, dead and living dim and draw apart.
++ 00:39:42.500,00:39:44.500 I don't try to remember, But forgetting is hard.
++ 00:39:45.500,00:39:48.000 What an excellent poem! Every word goes in my deep mind.
+- 00:39:49.000,00:39:51.740 Your Majesty, I don't understand poetry.
+?                       ^^       ^           ^^^^            ^^^ --
++ 00:39:49.000,00:39:51.000 Your majesty, I can hardly understand it.
+?                       ^^       ^          +++++++ ^^            ^
+- 00:39:52.500,00:39:55.900 Neither does the Empress, I'm afraid.
+?                       ^                             -- - ^^^^^
++ 00:39:52.500,00:39:55.000 Neither does the Empress, maybe.
+?                       ^                               ^^^
+- 00:39:56.460,00:40:01.560 If only Lady Sourire was here to talk with me!
+?          ^^     ^ - ----                       ^^       ^^             ^
++ 00:39:56.000,00:39:59.000 If only Lady Sourire is here and talk with me.
+?          ^^     ^^^^^^                         ^       ^^^             ^
+- 00:40:08.420,00:40:11.840 Here, I need you to send this to the Palace of Pearl Jade.
+?        ^ ^^           ^^      ^                   -----
++ 00:40:09.500,00:40:11.000 Here's one thing I need you to send to the Palace of Pearl Jade.
+?        ^ ^^           ^^      ^^^^^^^^^^^^
+- 00:40:12.180,00:40:14.120 Yes, Your Majesty.
+?        ^ ^^         ^ ^^       ^    ^
++ 00:40:11.500,00:40:13.000 Yes, your majesty.
+?        ^ ^^         ^ ^^       ^    ^
+- 00:40:19.000,00:40:22.060 My Lady, Mr. Su is here.
+?                     ^  -     ^     ----------
++ 00:40:19.000,00:40:20.500 My lady, here's Mr.Su.
+?                     ^ +      ^         +++++ +++
+- 00:40:23.000,00:40:28.780 My Lady, I hope you may forgive me disturbing.
+?                       ^^     ^     ^^^^^^    ----          ^
++ 00:40:23.000,00:40:28.000 My lady, may you forgive my disturbing.
+?                       ^^     ^     ^^^              ^
++ 00:40:29.000,00:40:31.000 Is there something happening since you come at this late time?
++ 00:40:32.000,00:40:35.000 Here's one thing that the Emperor asked me to definitely give you.
++ 00:40:38.000,00:40:40.000 And wish my lady a good dream in this beautiful night.
++ 00:40:52.000,00:40:55.000 The belts fastened in my waist, would like to tangle together like our hearts.
++ 00:40:56.000,00:40:58.500 Is it written by the Emperor himself?
+- 00:40:29.800,00:40:32.260 Is there something urgent, sir?
+- 00:40:32.780,00:40:37.020 His Majesty ordered me to deliver this to you, My Lady.
+- 00:40:38.000,00:40:41.920 His Majesty wishes you sweet dreams, My Lady.
+- 00:40:41.920,00:40:43.920 [For Sourire's personal inspection]
+- 00:40:52.000,00:40:55.000 "The paired knots on our sashes will tie our hearts as we dream."
+- 00:40:55.900,00:40:58.500 His Majesty wrote this himself?
+- 00:40:59.000,00:41:00.500 Yes.
++ 00:40:59.000,00:41:00.500 Yes, it is.
+?                              +++++++
+- 00:41:03.000,00:41:06.000 Please thank His Majesty on my behalf, Mr. Su.
+- 00:41:21.340,00:41:24.840 His Majesty is exhausted from the state affairs.
++ 00:41:03.000,00:41:04.500 Please convey my gratitude to the Emperor, Mr.Su.
++ 00:41:21.500,00:41:23.500 The Emperor is so tired of national affairs.
+- 00:41:26.000,00:41:28.640 Where is Su Peisheng?
+?                       ^^
++ 00:41:26.000,00:41:28.000 Where is Su Peisheng?
+?                       ^^
+- 00:41:29.680,00:41:33.420 Mr. Su went to the Palace of Pearl Jade with a box.
++ 00:41:30.000,00:41:32.000 I just saw that Mr.Su going to the Palace of Pearl Jade
++ 00:41:32.000,00:41:34.000 with a box in his hands.
+- 00:41:34.000,00:41:36.420 What's in the box?
+?                       ^^
++ 00:41:34.000,00:41:36.000 What's in the box?
+?                       ^^
+- 00:41:37.000,00:41:39.460 It's a lover's knot.
+?        ^            ^ ^^
++ 00:41:36.000,00:41:38.000 It's a true lover's knot.
+?        ^            ^ ^^        +++++
+- 00:41:43.040,00:41:45.120 Your Majesty must not be angry.
+- 00:41:45.560,00:41:48.040 What is there to be angry about?
+- 00:41:49.680,00:41:53.000 Did His Majesty ever visit Consort Fleur\nafter coming back to the palace?
+- 00:41:53.640,00:41:57.700 They saw each other quite often\nbut she didn't serve His Majesty overnight.
++ 00:41:42.500,00:41:44.000 May you not be angry, your majesty.
++ 00:41:45.000,00:41:47.000 Is there any reason for me to get angry?
++ 00:41:49.000,00:41:51.000 Since the Emperor came back to palace,
++ 00:41:51.000,00:41:53.000 did he ever visit Consort Fleur?
++ 00:41:54.000,00:41:55.000 They usually meet in daily life.
++ 00:41:55.000,00:41:57.000 But the Emperor didn't call Consort Fleur to serve him.
+- 00:42:00.000,00:42:10.000 Hello World!
+?                                -------
++ 00:42:00.000,00:42:10.000 Hello
+  00:42:22.500,00:42:36.000 [contact translators] carsenwei@yahoo.com\n[subtitles subscription] liberapay.com/ZHZSubbers
+  00:42:36.000,00:42:39.000 Theme: The Lonely Phoenix\n[phoenix is the symbol of an empress]
+  00:42:41.000,00:42:59.000 I dimly recall the colorful blooms in every summer.\nThey are as distant as the autumn moon in the water.
+  00:42:59.000,00:43:19.000 He loved me with a volatile heart.\nAnd before I knew it, we fell apart.
+  00:43:19.000,00:43:36.000 Behind me are the promises and longing.\nBefore me lie the flute and the zither.
+  00:43:36.000,00:43:54.000 I loved you with my body and soul\nBut you hurt me from head to toe.
+  00:43:54.000,00:44:02.000 My wish ran athwart\nand I ended up a fool of my destiny.
+  00:44:02.000,00:44:14.000 My love was the wind-swept flowers from a tree.
+  00:44:14.000,00:44:33.000 A plum bloomed in winter hoping for a fruitful summer.\nBut the irresistible winds of destiny destroyed her wish.
+  00:44:33.000,00:44:41.000 You can hear the flapping of a phoenix\nbut you will never see it.
+  00:44:41.000,00:44:47.600 What you see is the falling leaves from the phoenix tree.
+  00:44:51.000,00:45:04.000 The falling leaves from the phoenix tree.
