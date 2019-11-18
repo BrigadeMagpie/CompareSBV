@@ -6,9 +6,9 @@ import re
 from pprint import pprint
 from difflib import Differ
 
-TIMESTAMP_PATTERN_ = "(\d+)?:?(\d{2}):(\d{2})[.,](\d{3})"
-TIMESTAMP_PATTERN = re.compile(TIMESTAMP_PATTERN_)
-TIMESTAMP_RANGE_PATTERN = re.compile(TIMESTAMP_PATTERN_ + "," + TIMESTAMP_PATTERN_)
+TIMESTAMP_PATTERN_TEXT = "(\d+)?:?(\d{2}):(\d{2})[.,](\d{3})"
+TIMESTAMP_PATTERN = re.compile(TIMESTAMP_PATTERN_TEXT)
+TIMESTAMP_RANGE_PATTERN = re.compile(TIMESTAMP_PATTERN_TEXT + "," + TIMESTAMP_PATTERN_TEXT)
 
 def reconcile(a, b):
   """
