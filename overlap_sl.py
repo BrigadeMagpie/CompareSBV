@@ -13,11 +13,9 @@ def merge_sbv(outdir, f1, f2):
 
   blocks = _pass_1(outdir, 1, b1, b2)
   blocks = _pass_2(outdir, 2, blocks)
+  blocks = _pass_3(outdir, 3, blocks)
 
-  sys.exit(0)
-  blocks = _pass3(blocks)
-
-  return diff
+  return blocks
 
 def transform_sbv(f):
   result = []
@@ -122,8 +120,10 @@ def _pass_2(outdir, rank, blocks):
           if last_line[0] == '+':
             first = b[:-2]
             if first:
-              result.append((False, first, rank))
-            result.append((True, b[-2:], rank))
+              b1, b2 = _parse_diff_to_blocks(first)
+              result.append((False, b1, b2, rank))
+            b1, b2 = _parse_diff_to_blocks(b[-2:])
+            result.append((True, b1, b2, rank))
 
             usable = False
             b = []
@@ -138,39 +138,138 @@ def _pass_2(outdir, rank, blocks):
   writeBlocks(path.join(outdir, "_pass_2.txt"), result)
   return result
 
-
-def _pass3(blocks):
-  print("_pass3:")
+def _pass_3(outfile, rank, blocks):
+  print("_pass_3")
 
   result = []
   for block in blocks:
-    if len(block) <= 2:
+    if block[0]:
       result.append(block)
       continue
 
-    a = []
-    b = []
-    for line in block:
-      code = line[0]
-      if code == '-':
-        a.append(line[2:27])
-        #a.append(line[28:])
-        a.append("")
-      elif code == '+':
-        b.append(line[2:27])
-        #b.append(line[28:])
-        b.append("")
+    tr_vals1 = _append_tr_vals(block[1])
+    tr_vals2 = _append_tr_vals(block[2])
 
-    differ = Differ()
-    diff = differ.compare(a, b)
+    _lcs(tr_vals1, tr_vals2)
+    #sys.exit(0)
 
-    for line in diff:
-      print(line.rstrip())
-    printSeparator()
+def _append_tr_vals(b):
+  result = []
+  for l in b:
+    tr = l[:l.index(' ')]
+    ts1, ts2 = tr.split(',')
+    ms1 = _parse_timestamp(ts1)
+    ms2 = _parse_timestamp(ts2)
+
+    result.append([l, (ms1, ms2)])
+  return result
+
+def _lcs(x, y):
+  len_x = len(x)
+  len_y = len(y)
+
+  for _x in x:
+    print(_x)
+  print()
+
+  for _y in y:
+    print(_y)
+  print()
+
+  m = [[0 for _ in range(len_y + 1)]]
+  for i in range(len_x):
+    m.append([0 for _ in range(len_y + 1)])
+
+  m_ = [[0 for _ in range(len_y + 1)]]
+  for i in range(len_x):
+    m_.append([0 for _ in range(len_y + 1)])
+
+  for i in range(1, len_x + 1):
+    for j in range(1, len_y + 1):
+      try:
+        score = _score(x[i-1][1], y[j-1][1])
+        m_[i][j] = score
+        m[i][j] = max(m[i-1][j], m[i][j-1], score + m[i-1][j-1])
+      except:
+        print("(%d, %d)" % (i, j))
+        raise Exception()
+
+  for _ in m_:
+    print(_)
+  for _ in m:
+    print(_)
+  print()
+
+  pairs = []
+  i = len_x
+  j = len_y
+  while i > 0 and j > 0:
+    m_score = m[i][j]
+    if m_score == m[i-1][j]:
+      i -= 1
+    elif m_score == m[i][j-1]:
+      j -= 1
+    elif m_score == (m[i-1][j-1] + m_[i][j]):
+      if m_[i][j] >= 1:
+        pairs.append((x[i-1], y[j-1]))
+      i -= 1
+      j -= 1
+    else:
+      print("(%d, %d)" % (i, j))
+      sys.exit(0)
+
+  print("pairs:")
+  for p in pairs:
+    print(p[0])
+    print(p[1])
+    print()
+
+  printSeparator()
+  print()
+
+
+def _score(x, y):
+  xa, xb = x
+  ya, yb = y
+
+  r = abs(_mid(xa, xb) - _mid(ya, yb))
+  r = r if r != 0 else .1
+
+  return (yb - ya) * (xb - xa) / (r * r)
+
+def _mid(x, y):
+  return x + (y - x) / 2
+
+def _parse_timestamp(ts):
+  hms, ms = ts.split('.')
+  h, m, s = hms.split(':')
+
+  return (((int(h) * 60) + int(m)) * 60 + int(s)) * 1000 + int(ms)
+
+def _parse_diff_to_blocks(diff):
+  if not diff:
+    return ([], [])
+  b1 = []
+  b2 = []
+
+  for d in diff:
+    code = d[0]
+    s = d[2:]
+    if code == ' ':
+      b1.append(s)
+      b2.append(s)
+    elif code == '-':
+      b1.append(s)
+    elif code == '+':
+      b2.append(s)
+
+  return (b1, b2)
 
 def printBlock(block):
   for line in block:
     print(line.rstrip())
+
+  print("")
 
 def printBlocks(blocks):
   for block in blocks:
