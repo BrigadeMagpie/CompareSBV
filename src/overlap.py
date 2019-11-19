@@ -3,21 +3,24 @@
 import sys
 from os import path
 import webvtt
+from webvtt.structures import Caption
 from difflib import Differ
 
 SEPARATOR = "------------------------------------------"
+OUTDIR = None
 
-def merge_sbv(outdir, f1, f2):
-  b1 = transform_sbv(f1)
-  b2 = transform_sbv(f2)
+def merge(f1, f2):
+  b1 = sbv_to_block(f1)
+  b2 = sbv_to_block(f2)
 
-  blocks = _pass_1(outdir, 1, b1, b2)
-  blocks = _pass_2(outdir, 2, blocks)
-  blocks = _pass_3(outdir, 3, blocks)
+  blocks = _pass_1(1, b1, b2)
+  blocks = _pass_2(2, blocks)
+  blocks = _pass_3(3, blocks)
+  blocks = blocks_to_sbv_blocks(100, blocks)
 
   return blocks
 
-def transform_sbv(f):
+def sbv_to_block(f):
   result = []
 
   for caption in f:
@@ -27,8 +30,37 @@ def transform_sbv(f):
 
   return result
 
+def block_to_sbv(b):
+  i_tsr = b.index(' ')
+  tsr = b[:i_tsr]
+  _text = b[i_tsr+1:]
 
-def _pass_1(outdir, rank, b1, b2):
+  ts1, ts2 = tsr.split(',')
+  text = _text.split("\\n")
+
+  return Caption(start = ts1, end = ts2, text = text)
+
+def blocks_to_sbv_blocks(rank, blocks):
+  result = []
+
+  for b in blocks:
+    match, b1, b2, _ = b
+
+    _b1 = []
+    _b2 = []
+
+    for _b in b1:
+      _b1.append(block_to_sbv(_b))
+    for _b in b2:
+      _b2.append(block_to_sbv(_b))
+
+    result.append((match, _b1, _b2, rank))
+
+  writeBlocks("final.txt", result)
+  return result
+
+
+def _pass_1(rank, b1, b2):
   # Get first of b1, compare to first of b2
   # Start with the "later" one
   # Scan the other list for a match until it's passed
@@ -75,10 +107,10 @@ def _pass_1(outdir, rank, b1, b2):
       block1 = []
       block2 = []
 
-  writeBlocks(path.join(outdir, "_pass_1.txt"), result)
+  writeBlocks("_pass_1.txt", result)
   return result
 
-def _pass_2(outdir, rank, blocks):
+def _pass_2(rank, blocks):
   """
   Use of single-line diff to get a general match up between the two versions of
   subtitles
@@ -135,11 +167,13 @@ def _pass_2(outdir, rank, blocks):
       print("_block: %s" % _block)
       print("usable: %s" % usable)
 
-  writeBlocks(path.join(outdir, "_pass_2.txt"), result)
+  writeBlocks("_pass_2.txt", result)
   return result
 
-def _pass_3(outfile, rank, blocks):
-  print("_pass_3")
+def _pass_3(rank, blocks):
+  """
+  Use a modified Longest Common Subsequence algorithm to fuzzy match the timestamps
+  """
 
   result = []
   for block in blocks:
@@ -147,11 +181,39 @@ def _pass_3(outfile, rank, blocks):
       result.append(block)
       continue
 
-    tr_vals1 = _append_tr_vals(block[1])
-    tr_vals2 = _append_tr_vals(block[2])
+    b1 = block[1]
+    b2 = block[2]
+    tr_vals1 = _append_tr_vals(b1)
+    tr_vals2 = _append_tr_vals(b2)
 
-    _lcs(tr_vals1, tr_vals2)
-    #sys.exit(0)
+    pairs = _lcs(tr_vals1, tr_vals2)
+    
+    i1 = 0
+    i2 = 0
+    for pair in pairs:
+      j1, j2 = pair
+      _b1 = b1[i1:j1]
+      _b2 = b2[i2:j2]
+
+      if _b1 or _b2:
+        result.append((False, _b1, _b2, rank))
+
+      result.append((True, [b1[j1]], [b2[j2]], rank))
+      i1, i2 = pair
+      i1 += 1
+      i2 += 1
+
+    l1 = len(b1)
+    l2 = len(b2)
+
+    _b1 = b1[i1:l1]
+    _b2 = b2[i2:l2]
+
+    if _b1 or _b2:
+      result.append((False, _b1, _b2  , rank))
+
+  writeBlocks("_pass_3.txt", result)
+  return result
 
 def _append_tr_vals(b):
   result = []
@@ -168,13 +230,13 @@ def _lcs(x, y):
   len_x = len(x)
   len_y = len(y)
 
-  for _x in x:
-    print(_x)
-  print()
+  # for _x in x:
+  #   print(_x)
+  # print()
 
-  for _y in y:
-    print(_y)
-  print()
+  # for _y in y:
+  #   print(_y)
+  # print()
 
   m = [[0 for _ in range(len_y + 1)]]
   for i in range(len_x):
@@ -194,11 +256,11 @@ def _lcs(x, y):
         print("(%d, %d)" % (i, j))
         raise Exception()
 
-  for _ in m_:
-    print(_)
-  for _ in m:
-    print(_)
-  print()
+  # for _ in m_:
+  #   print(_)
+  # for _ in m:
+  #   print(_)
+  # print()
 
   pairs = []
   i = len_x
@@ -211,31 +273,34 @@ def _lcs(x, y):
       j -= 1
     elif m_score == (m[i-1][j-1] + m_[i][j]):
       if m_[i][j] >= 1:
-        pairs.append((x[i-1], y[j-1]))
+        pairs.insert(0, (i-1, j-1))
       i -= 1
       j -= 1
     else:
       print("(%d, %d)" % (i, j))
       sys.exit(0)
 
-  print("pairs:")
-  for p in pairs:
-    print(p[0])
-    print(p[1])
-    print()
+  # print("pairs:")
+  # for p in pairs:
+  #   print(p)
 
-  printSeparator()
-  print()
+  # printSeparator()
+  # print()
 
+  return pairs
 
 def _score(x, y):
   xa, xb = x
   ya, yb = y
 
-  r = abs(_mid(xa, xb) - _mid(ya, yb))
-  r = r if r != 0 else .1
+  dx = xb - xa
+  dy = yb - ya
 
-  return (yb - ya) * (xb - xa) / (r * r)
+  top = min(dx, dy) / max(dx, dy)
+
+  r = abs(_mid(xa, xb) - _mid(ya, yb)) + 1
+
+  return top * 10000 / r
 
 def _mid(x, y):
   return x + (y - x) / 2
@@ -282,9 +347,9 @@ def printSeparator():
   print("------------------------------------------")
 
 def writeBlocks(file, blocks):
-  if not file:
+  if not OUTDIR:
     return
-  with open(file, "w", encoding="utf-8") as f:
+  with open(path.join(OUTDIR, file), "w", encoding="utf-8") as f:
     for b in blocks:
       len_b = len(b)
       if len_b == 3:
@@ -295,10 +360,12 @@ def writeBlocks(file, blocks):
       elif len_b == 4:
         f.write("%s %d\n" % (b[0], b[3]))
         for l in b[1]:
-          f.write(l + "\n")
+          f.write(str(l))
+          f.write("\n")
         f.write("\n")
         for l in b[2]:
-          f.write(l + "\n")
+          f.write(str(l))
+          f.write("\n")
         f.write(SEPARATOR + "\n")
 
 def writeBlock(file, block):
@@ -313,5 +380,5 @@ if __name__ == '__main__':
   f1 = webvtt.from_sbv(sys.argv[1])
   f2 = webvtt.from_sbv(sys.argv[2])
 
-  outdir = sys.argv[3] if len(sys.argv) > 3 else None
-  diff = merge_sbv(outdir, f1, f2)
+  OUTDIR = sys.argv[3] if len(sys.argv) > 3 else None
+  diff = merge(f1, f2)
