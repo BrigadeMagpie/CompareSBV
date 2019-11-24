@@ -1,6 +1,7 @@
 import pandas as pd
 import webvtt
 from datetime import datetime
+from difflib import SequenceMatcher
 
 import overlap
 
@@ -21,22 +22,73 @@ def compare(infile_a, infile_b, outfile):
 
       _b2_start = _b2.start if _b1.start != _b2.start else "-"
       _b2_end = _b2.end if _b1.end != _b2.end else "-"
-      data.append([_b1.start, _b1.end, _b2_start, _b2_end, _b1.text, _b2.text])
+      wc = 1 - SequenceMatcher(None, _b1.text, _b2.text).ratio()
+      data.append([_b1.start, _b1.end, _b2_start, _b2_end, _b1.text, _b2.text, wc])
+    else:
+      captions = []
+      captions.extend([(_b, 1) for _b in b1])
+      captions.extend([(_b, 2) for _b in b2])
 
-  df = pd.DataFrame(data, columns = ["start", "end", "start", "end", "old", "new"])
+      captions.sort(key=lambda c: c[0].start)
 
-  # Write to Excel file with formats
-  writer = pd.ExcelWriter(outfile, engine='xlsxwriter') #https://xlsxwriter.readthedocs.io/index.html
+      for c in captions:
+        _b = c[0]
+        if c[1] == 1:
+          data.append([_b.start, _b.end, "-", "-", _b.text, ""])
+        else:
+          data.append(["-", "-", _b.start, _b.end, "", _b.text])
+
+  df = pd.DataFrame(data, columns = ["start", "end", "start", "end", "old", "new", "word change"])
+  _to_excel(outfile, df)
+
+def _to_excel(outfile, df):
+  # Output to Excel
+  writer = pd.ExcelWriter(outfile, engine='xlsxwriter')
   df.to_excel(writer, sheet_name='Sheet1', index=False)
-  # Get the xlsxwriter objects from the dataframe writer object.
+
   workbook  = writer.book
   worksheet = writer.sheets['Sheet1']
-  # Set the column width and format.
-  format1 = workbook.add_format({'text_wrap': True})
-  worksheet.set_column('A:D', 18)
-  worksheet.set_column('E:F', 55, format1)
 
-  # Close the Pandas Excel writer and output the Excel file.
+  f_wrap = workbook.add_format({'text_wrap': True})
+  f_wc = workbook.add_format({'num_format': '0.00'})
+  worksheet.set_column('A:D', 24)
+  worksheet.set_column('E:F', 55, f_wrap)
+  worksheet.set_column('G:G',12, f_wc)
+
+  f_green = workbook.add_format({
+    'bg_color': '#C6EFCE',
+    'font_color': '#006100'
+  })
+  f_red = workbook.add_format({
+    'bg_color': '#FFC7CE',
+    'font_color': '#9C0006'
+  })
+  f_yellow = workbook.add_format({
+    'bg_color': '#FFEB9C',
+    'font_color': '#9C6500'
+  })
+
+  worksheet.conditional_format('G2:G1048576', {
+    'type': 'cell',
+    'criteria': '<',
+    'value': 0.4,
+    'format': f_green
+  })
+
+  worksheet.conditional_format('G2:G1048576', {
+    'type': 'cell',
+    'criteria': 'between',
+    'minimum': 0.4,
+    'maximum': 0.99,
+    'format': f_red
+  })
+
+  worksheet.conditional_format('G2:G1048576', {
+    'type': 'cell',
+    'criteria': '>',
+    'value': 0.99,
+    'format': f_yellow})
+
   writer.save()
 
 if __name__ == '__main__':
@@ -46,10 +98,3 @@ if __name__ == '__main__':
     raise Exception("Missing arguments.")
 
   compare(*sys.argv[1:4])
-
-"""
-File paths
-InOriginal = "C:\\Users\\Jiachen\\OneDrive\\YouTube Subtitles\\Youtube LeTV Published\\EP20volunteers.sbv"
-InRevised = "C:\\Users\\Jiachen\\OneDrive\\YouTube Subtitles\\Youtube LeTV Published\\EP20 Sept21.sbv"
-OutFile = "C:\\Users\\Jiachen\\OneDrive\\YouTube Subtitles\\测试 培训\\Carsen修改前后对比\\EP20组会20190922.xlsx"
-"""
