@@ -1,7 +1,7 @@
 import pandas as pd
 import webvtt
 from datetime import datetime
-from difflib import SequenceMatcher
+from difflib import SequenceMatcher, Differ
 
 import overlap
 
@@ -21,10 +21,8 @@ def compare(infile_c, infile_a, infile_b, outfile):
       _b1 = b1[0]
       _b2 = b2[0]
 
-      _b2_start = _b2.start if _b1.start != _b2.start else "-"
-      _b2_end = _b2.end if _b1.end != _b2.end else "-"
       wc = 1 - SequenceMatcher(None, _b1.text, _b2.text).ratio()
-      data.append([_b1.start, _b1.end, _b2_start, _b2_end, _b1.text, _b2.text, wc])
+      data.append([_b2.start, _b2.end, _b1.text, _b2.text, wc])
     else:
       captions = []
       captions.extend([(_b, 1) for _b in b1])
@@ -35,23 +33,36 @@ def compare(infile_c, infile_a, infile_b, outfile):
       for c in captions:
         _b = c[0]
         if c[1] == 1:
-          data.append([_b.start, _b.end, "-", "-", _b.text, ""])
+          data.append([_b.start, _b.end, _b.text, ""])
         else:
-          data.append([_b.start, _b.end, _b.start, _b.end, "", _b.text])
+          data.append([_b.start, _b.end, "", _b.text])
+
+
+  if False:
+    verify_a = []
+    for d in data:
+      if d[2]:
+        verify_a.append(d[2])
+
+    expected_a = [cap.text for cap in sub_a]
+
+    diff = list(Differ().compare(expected_a, verify_a))
+    for d in diff:
+      print(d)
+    print(len(sub_a))
+    print(len(verify_a))
 
   data_c = [[sub.start, sub.end, sub.text] for sub in sub_c]
   df_c = pd.DataFrame(data_c, columns = ["start", "end", "Chinese"])
   df_ = pd.DataFrame(data, columns = [
-    "start", "end", "start (revised)", "end (revised)", "Translation", "Revised", "word change"])
+    "start", "end", "Translation", "Revised", "word change"])
 
   df_c = df_c.set_index(["start", "end"])
   df_ = df_.set_index(["start", "end"])
 
   df = df_c.join(df_, how='outer')
   df = df.reset_index(level=["start", "end"])
-  df = df[["start", "end", "start (revised)", "end (revised)", "Chinese", "Translation", "Revised", "word change"]]
-
-  df.loc[df["Translation"] == "", ["start", "end"]] = "-"
+  df = df[["start", "end", "Chinese", "Translation", "Revised", "word change"]]
 
   _to_excel(outfile, df)
 
@@ -65,9 +76,9 @@ def _to_excel(outfile, df):
 
   f_wrap = workbook.add_format({'text_wrap': True})
   f_wc = workbook.add_format({'num_format': '0.00'})
-  worksheet.set_column('A:D', 24)
-  worksheet.set_column('E:G', 55, f_wrap)
-  worksheet.set_column('H:H',12, f_wc)
+  worksheet.set_column('A:B', 14)
+  worksheet.set_column('C:E', 38, f_wrap)
+  worksheet.set_column('F:F',12, f_wc)
 
   f_green = workbook.add_format({
     'bg_color': '#C6EFCE',
@@ -82,14 +93,14 @@ def _to_excel(outfile, df):
     'font_color': '#9C6500'
   })
 
-  worksheet.conditional_format('H2:H1048576', {
+  worksheet.conditional_format('F2:F1048576', {
     'type': 'cell',
     'criteria': '<',
     'value': 0.4,
     'format': f_green
   })
 
-  worksheet.conditional_format('H2:H1048576', {
+  worksheet.conditional_format('F2:F1048576', {
     'type': 'cell',
     'criteria': 'between',
     'minimum': 0.4,
@@ -97,7 +108,7 @@ def _to_excel(outfile, df):
     'format': f_red
   })
 
-  worksheet.conditional_format('H2:H1048576', {
+  worksheet.conditional_format('F2:F1048576', {
     'type': 'cell',
     'criteria': '>',
     'value': 0.99,

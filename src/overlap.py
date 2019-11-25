@@ -7,7 +7,7 @@ from webvtt.structures import Caption
 from difflib import Differ
 
 SEPARATOR = "------------------------------------------"
-OUTDIR = None
+OUTDIR = None # "C:\\Users\\Shun\\Downloads\\empress\\code\\ZHZ-Subtitlers\\tmp"
 
 def merge(f1, f2):
   b1 = sbv_to_block(f1)
@@ -94,6 +94,9 @@ def _pass_1(rank, b1, b2):
             block1 = []
             block2 = []
           result.append((True, [s1], [s2], rank))
+        else:
+          block1.append(s1)
+          block2.append(s2)
         i1 += 1
         i2 += 1
       elif ts1 < ts2:
@@ -102,6 +105,10 @@ def _pass_1(rank, b1, b2):
       elif ts1 > ts2:
         block2.append(s2)
         i2 += 1
+    if i1 < l1:
+      block1.extend(b1[i1:])
+    if i2 < l2:
+      block2.extend(b2[i2:])
     if block1 or block2:
       result.append((False, block1, block2, rank))
       block1 = []
@@ -123,6 +130,7 @@ def _pass_2(rank, blocks):
       result.append(block)
       continue
 
+    # print("block")
     diff = differ.compare(block[1], block[2])
     diff = list(diff)
 
@@ -131,6 +139,7 @@ def _pass_2(rank, blocks):
 
     try:
       for line in diff:
+        # print(line)
         code = line[0]
         s = line[2:]
 
@@ -159,6 +168,9 @@ def _pass_2(rank, blocks):
 
             usable = False
             b = []
+      if b:
+        b1, b2 = _parse_diff_to_blocks(b)
+        result.append((False, b1, b2, rank))
     except Exception as e:
       import traceback
       traceback.print_tb(e.__traceback__)
