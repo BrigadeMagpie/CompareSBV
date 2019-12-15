@@ -16,7 +16,7 @@ def normalize(t):
   return re.sub('[,.?!]', ' ', t.lower())
 
 
-def word_change_block(added, deleted):
+def wordchange_block(added, deleted):
   """
   Calculates the number of accepted changed words for a consecutive block of change.
   The changes below comes out to be 2. Any opposite signs in the same block is reduced to 1 change instead of 2.
@@ -28,7 +28,7 @@ def word_change_block(added, deleted):
   """
   return max(added, deleted)
 
-def word_change(old_t, new_t):
+def wordchange(old_t, new_t):
   """
   Takes two strings and returns the ratio of changed words to the number of the words in the original string.
   """
@@ -57,7 +57,7 @@ def word_change(old_t, new_t):
       continue
 
     if c == ' ':
-      total += word_change_block(curr_add, curr_del)
+      total += wordchange_block(curr_add, curr_del)
       curr_add = 0
       curr_del = 0
     elif c == '+':
@@ -68,7 +68,7 @@ def word_change(old_t, new_t):
       raise Exception("Something went wrong")
 
   
-  total += word_change_block(curr_add, curr_del)
+  total += wordchange_block(curr_add, curr_del)
   return total / len(_old_t)
 
 """
@@ -104,5 +104,5 @@ if __name__ == '__main__':
   for test in tests:
     print("old: '{}'".format(test[0]))
     print("new: '{}'".format(test[1]))
-    wc = word_change(test[0], test[1])
+    wc = wordchange(test[0], test[1])
     print("word change: {:.2%}\n".format(wc))
