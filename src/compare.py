@@ -3,6 +3,7 @@ import webvtt
 from datetime import datetime
 from difflib import SequenceMatcher, Differ
 
+import paths
 import overlap
 
 def compare(infile_c, infile_a, infile_b, outfile):
@@ -119,7 +120,7 @@ def _to_excel(outfile, df):
 if __name__ == '__main__':
   import sys
 
-  if len(sys.argv) < 4:
-    raise Exception("Missing arguments.")
-
-  compare(*sys.argv[1:5])
+  if len(sys.argv) == 4:
+    compare(*sys.argv[1:5])
+  else:
+    compare(*paths.PATHS)
