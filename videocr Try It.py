@@ -1,6 +1,6 @@
 #Install Tesseract and make sure it is in your $PATH
     #https://github.com/tesseract-ocr/tesseract/wiki
-    #Open Environment Variable, add the folder path to path
+    #Open Environment Variable, add the folder path C:\Program Files\Tesseract-OCR to Path
 #!pip install videocr
     #https://pypi.org/project/videocr/
     #https://github.com/apm1467/videocr
