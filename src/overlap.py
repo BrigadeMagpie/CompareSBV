@@ -7,7 +7,7 @@ from webvtt.structures import Caption
 from difflib import Differ
 
 SEPARATOR = "------------------------------------------"
-OUTDIR = None # "C:\\Users\\Shun\\Downloads\\empress\\code\\ZHZ-Subtitlers\\tmp"
+OUTDIR = None
 
 def merge(f1, f2):
   b1 = sbv_to_block(f1)
@@ -176,7 +176,6 @@ def _pass_2(rank, blocks):
       traceback.print_tb(e.__traceback__)
       print("result: %s")
       printBlocks(result)
-      print("_block: %s" % _block)
       print("usable: %s" % usable)
 
   writeBlocks("_pass_2.txt", result)
