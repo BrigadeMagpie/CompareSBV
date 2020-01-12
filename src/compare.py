@@ -1,17 +1,17 @@
 import pandas as pd
-import webvtt
 from datetime import datetime
 from difflib import SequenceMatcher, Differ
 
+from sub_parser import parse_sbv
 import paths
 import overlap
 
 def compare(infile_c, infile_a, infile_b, outfile):
   # print("%s, %s, %s" % (infile_a, infile_b, outfile))
 
-  sub_c = webvtt.from_sbv(infile_c)
-  sub_a = webvtt.from_sbv(infile_a)
-  sub_b = webvtt.from_sbv(infile_b)
+  sub_c = parse_sbv(infile_c)
+  sub_a = parse_sbv(infile_a)
+  sub_b = parse_sbv(infile_b)
 
   blocks = overlap.merge(sub_a, sub_b)
 
@@ -120,7 +120,7 @@ def _to_excel(outfile, df):
 if __name__ == '__main__':
   import sys
 
-  if len(sys.argv) == 4:
+  if len(sys.argv) == 5:
     compare(*sys.argv[1:5])
   else:
     compare(*paths.PATHS)
