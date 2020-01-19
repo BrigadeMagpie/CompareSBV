@@ -7,7 +7,8 @@ Project homapage https://liberapay.com/ZHZSubbers/
 ## Instructions
 ```
 pip install -r requirements.txt
-```
-```
-python .\src\compare.py <chinese_sub_path> <original_sub_path> <revised_sub_path> <outfile_path>
+
+##Edit file paths in .\src\paths.py
+
+python .\src\compare.py
 ```
