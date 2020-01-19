@@ -77,9 +77,9 @@ def _to_excel(outfile, df):
 
   f_wrap = workbook.add_format({'text_wrap': True})
   f_wc = workbook.add_format({'num_format': '0.00'})
-  worksheet.set_column('A:B', 14)
+  worksheet.set_column('A:B', 10)
   worksheet.set_column('C:E', 38, f_wrap)
-  worksheet.set_column('F:F',12, f_wc)
+  worksheet.set_column('F:F',8, f_wc)
 
   f_green = workbook.add_format({
     'bg_color': '#C6EFCE',
