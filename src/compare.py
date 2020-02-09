@@ -118,6 +118,7 @@ def _to_excel(outfile, df):
   writer.save()
 
 if __name__ == '__main__':
+  # pylint: disable=no-value-for-parameter
   import sys
 
   if len(sys.argv) == 5:
