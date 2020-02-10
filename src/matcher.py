@@ -13,7 +13,7 @@ class SubtitleMatcher(object):
   def match(self, pass_num, blocks):
     raise NotImplementedError
 
-class IdenticalSubtitleMatcher(SubtitleMatcher):
+class IdenticalTimeRangeSubtitleMatcher(SubtitleMatcher):
   def match(self, pass_num, blocks):
     _blocks = []
     for block in blocks:
@@ -24,7 +24,7 @@ class IdenticalSubtitleMatcher(SubtitleMatcher):
     return _blocks
 
 
-  def _match(self, rank, b1, b2):
+  def _match(self, pass_num, b1, b2):
     # Get first of b1, compare to first of b2
     # Start with the "later" one
     # Scan the other list for a match until it's passed
@@ -32,9 +32,9 @@ class IdenticalSubtitleMatcher(SubtitleMatcher):
     result = []
 
     if not b1 and not b2:
-      result = [(True, b1, b2, rank)]
+      result = [(True, b1, b2, pass_num)]
     elif not b1 or not b2:
-      result = [(False, b1, b2, rank)]
+      result = [(False, b1, b2, pass_num)]
     else:
       l1 = len(b1)
       l2 = len(b2)
@@ -54,10 +54,10 @@ class IdenticalSubtitleMatcher(SubtitleMatcher):
         if ts1 == ts2:
           if tr1 == tr2:
             if block1 or block2:
-              result.append((False, block1, block2, rank))
+              result.append((False, block1, block2, pass_num))
               block1 = []
               block2 = []
-            result.append((True, [s1], [s2], rank))
+            result.append((True, [s1], [s2], pass_num))
           else:
             block1.append(s1)
             block2.append(s2)
@@ -74,7 +74,7 @@ class IdenticalSubtitleMatcher(SubtitleMatcher):
       if i2 < l2:
         block2.extend(b2[i2:])
       if block1 or block2:
-        result.append((False, block1, block2, rank))
+        result.append((False, block1, block2, pass_num))
         block1 = []
         block2 = []
 
