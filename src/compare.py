@@ -5,6 +5,7 @@ from difflib import SequenceMatcher, Differ
 from sub_parser import parse_sbv
 import paths
 import overlap
+from overlap import IdenticalSubtitleMatcher, DiffSubtitleMatcher, FuzzyTimeRangeSubtitleMatcher
 
 def compare(infile_c, infile_a, infile_b, outfile):
   # print("%s, %s, %s" % (infile_a, infile_b, outfile))
@@ -13,7 +14,8 @@ def compare(infile_c, infile_a, infile_b, outfile):
   sub_a = parse_sbv(infile_a)
   sub_b = parse_sbv(infile_b)
 
-  blocks = overlap.merge(sub_a, sub_b)
+  matchers = [IdenticalSubtitleMatcher(), DiffSubtitleMatcher(), FuzzyTimeRangeSubtitleMatcher()]
+  blocks = overlap.merge(sub_a, sub_b, matchers)
 
   data = []
   for b in blocks:
@@ -26,32 +28,11 @@ def compare(infile_c, infile_a, infile_b, outfile):
       data.append([_b2.start, _b2.end, _b1.text, _b2.text, wc])
     else:
       captions = []
-      captions.extend([(_b, 1) for _b in b1])
-      captions.extend([(_b, 2) for _b in b2])
+      captions.extend([[_b.start, _b.end, _b.text, ""] for _b in b1])
+      captions.extend([[_b.start, _b.end, "", _b.text] for _b in b2])
+      captions.sort(key=lambda c: c[0])
 
-      captions.sort(key=lambda c: c[0].start)
-
-      for c in captions:
-        _b = c[0]
-        if c[1] == 1:
-          data.append([_b.start, _b.end, _b.text, ""])
-        else:
-          data.append([_b.start, _b.end, "", _b.text])
-
-
-  if False:
-    verify_a = []
-    for d in data:
-      if d[2]:
-        verify_a.append(d[2])
-
-    expected_a = [cap.text for cap in sub_a]
-
-    diff = list(Differ().compare(expected_a, verify_a))
-    for d in diff:
-      print(d)
-    print(len(sub_a))
-    print(len(verify_a))
+      data.extend(captions)
 
   data_c = [[sub.start, sub.end, sub.text] for sub in sub_c]
   df_c = pd.DataFrame(data_c, columns = ["start", "end", "Chinese"])
@@ -122,6 +103,6 @@ if __name__ == '__main__':
   import sys
 
   if len(sys.argv) == 5:
-    compare(*sys.argv[1:5])
+    compare(*sys.argv[1:])
   else:
     compare(*paths.PATHS)
