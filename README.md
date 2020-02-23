@@ -1,11 +1,8 @@
-# Subtitling-ZHZ
-
-This repository contains programming support for the YouTube Zhen Huan Zhuan Subtitlers
-
+Programming support for the translation projects by The Magpie Bridge Brigage
 Project homapage https://liberapay.com/ZHZSubbers/
 
-
 `CompareSBV` repository compares YouTube sbv files and outputs an Excel spreasheet.
+
 ![Sample output in the `resource` folder](https://github.com/BrigadeMagpie/CompareSBV/blob/master/resource/Comparing3SBV.png)
 
 ## Instructions
