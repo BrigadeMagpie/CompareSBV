@@ -121,6 +121,14 @@ def to_excel(outfile, df):
   worksheet.conditional_format('F2:F1048576', {
     'type': 'cell',
     'criteria': 'between',
+    'minimum': 0.001,
+    'maximum': 0.399,
+    'format': f_green
+  })
+  
+  worksheet.conditional_format('F2:F1048576', {
+    'type': 'cell',
+    'criteria': 'between',
     'minimum': 0.4,
     'maximum': 0.99,
     'format': f_red
