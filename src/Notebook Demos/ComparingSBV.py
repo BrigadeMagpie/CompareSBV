@@ -5,8 +5,6 @@
 # 
 # Delete empty text after timestamp in the sbv files.
 
-# In[1]:
-
 
 import pandas as pd
 import numpy as np
@@ -14,18 +12,10 @@ import webvtt
 from datetime import datetime
 from difflib import SequenceMatcher
 
-
-# In[2]:
-
-
 #File paths
 InOriginal = "C:\\Users\Jiachen\\OneDrive\\YouTube Subtitles\\China Now\\CN05Qiandou.sbv"
 InRevised = "C:\\Users\\Jiachen\\OneDrive\\YouTube Subtitles\\China Now\\CN05.sbv"
 OutFile = "C:\\Users\\Jiachen\\OneDrive\\YouTube Subtitles\\China Now\\CN前后对照\\CN05.xlsx"
-
-
-# In[3]:
-
 
 def sbv2df(sbv,textCol):
     """ 
@@ -50,16 +40,9 @@ translation = sbv2df(InOriginal,"Translation")
 revised = sbv2df(InRevised,"Revised")
 
 
-# In[4]:
-
-
 t = translation.set_index(['start','end'])
 r = revised.set_index(['start','end'])
 output = t.join(r, how='outer')
-output.head()
-
-
-# In[5]:
 
 
 # For each time sgegment with the same start time, replace Translation or Revised with the last non-NaN value
@@ -76,11 +59,6 @@ for index, row in output.iterrows():
                 row[0] = lastTranslation
             if pd.isna(row[1]) and ~pd.isna(lastRevised):
                 row[1] = lastRevised
-output.head()
-
-
-# In[6]:
-
 
 lastStart = output.index[0][0]
 clean=output
@@ -91,10 +69,6 @@ for index, row in output.iterrows():
             #print("START",index[0],'\n',output.loc[index[0]].shape)  #to find out the pattern in shape
             if output.loc[index[0]].shape[0] == 2:   #one start (index) matches 2 end (index)
                 clean.drop((index[0],index[1]), inplace=True)
-clean.head()
-
-
-# In[7]:
 
 
 clean['WordChange'] =  np.nan
@@ -106,11 +80,6 @@ for idx,row in clean.iterrows():
     clean.loc[idx,'WordChange'] = 1- SequenceMatcher(None,row['Translation'],row['Revised']) .ratio()
     if clean.loc[idx,'WordChange'] == 0:
         clean.loc[idx,'WordChange'] = None
-clean.head()
-
-
-# In[8]:
-
 
 #Reset index so that "start" and "end" will appear in the Excel file
 df = clean.reset_index(level=['start','end'])
