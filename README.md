@@ -11,8 +11,19 @@ Project homapage https://liberapay.com/ZHZSubbers/
 ## Instructions
 ```
 pip install -r requirements.txt
+```
 
-##Edit file paths in .\src\paths.py
+### Run using command line
+```
+python .\src\compare.py -o .\tmp\EP21Outfile.xlsx -f .\docs\EP21Chinese.sbv .\docs\EP21Volunteers.sbv .\docs\EP21Carsen.sbv
+```
+```
+usage: compare.py [-h] [-f foreign_file] [-o out_file] [-c config_file]
+                  [--timeline-only]
+                  [original_file] [revised_file]
+```
 
-python .\src\compare.py
+### Run using configuration file
+```
+python .\src\compare.py -c .\src\paths.py
 ```
