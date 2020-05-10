@@ -27,3 +27,11 @@ usage: compare.py [-h] [-f foreign_file] [-o out_file] [-c config_file]
 ```
 python .\src\compare.py -c .\src\paths.py
 ```
+
+#### Sample configuration file
+```
+ORIGINAL_FILE = "C:\\Users\\...\\docs\\EP21Volunteers.sbv"
+REVISED_FILE = "C:\\Users\\...\\docs\\EP21Carsen.sbv"
+CHINESE_FILE = "C:\\Users\\...\\docs\\EP21Chinese.sbv" # Optional
+OUT_FILE = "C:\\Users\\...\\resource\\EP21Output.xlsx"
+```
