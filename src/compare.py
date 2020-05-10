@@ -169,8 +169,6 @@ if __name__ == '__main__':
 
   args = parser.parse_args()
 
-  print(args)
-
   FOREIGN_FILE = None
   ORIGINAL_FILE = None
   REVISED_FILE = None
