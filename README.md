@@ -6,32 +6,31 @@ Project homapage https://liberapay.com/ZHZSubbers/
 `CompareSBV` repository compares YouTube sbv files and outputs an Excel spreasheet.
 
 
-![Sample output in the `resource` folder](https://github.com/BrigadeMagpie/CompareSBV/blob/master/resource/Comparing3SBV.png)
+![Sample output in the `resource` folder](/resource/Comparing3SBV.png?raw=true)
 
 ## Instructions
 ```
 pip install -r requirements.txt
 ```
 
-### Run using command line
+## Usage
 ```
-python .\src\compare.py -o .\tmp\EP21Outfile.xlsx -f .\docs\EP21Chinese.sbv .\docs\EP21Volunteers.sbv .\docs\EP21Carsen.sbv
-```
-```
-usage: compare.py [-h] [-f foreign_file] [-o out_file] [-c config_file]
-                  [--timeline-only]
-                  [original_file] [revised_file]
+usage: compare.py [-h] [-c CONFIG_FILE] [-o OUT_FILE] [-f {review,database}]
+                  [-nd]
+                  [FROM_FILE] [TO_FILE] [REF_FILE]
 ```
 
 ### Run using configuration file
+See .\config\config.py for sample configuration
 ```
-python .\src\compare.py -c .\src\paths.py
+python .\src\compare.py -c .\config\local.py
 ```
 
-#### Sample configuration file
+### Run using command line
 ```
-ORIGINAL_FILE = "C:\\Users\\...\\docs\\EP21Volunteers.sbv"
-REVISED_FILE = "C:\\Users\\...\\docs\\EP21Carsen.sbv"
-CHINESE_FILE = "C:\\Users\\...\\docs\\EP21Chinese.sbv" # Optional
-OUT_FILE = "C:\\Users\\...\\resource\\EP21Output.xlsx"
+python .\src\compare.py -o .\tmp\EP21Outfile.xlsx .\docs\EP21Volunteers.sbv .\docs\EP21Carsen.sbv .\docs\EP21Chinese.sbv
+
+python .\src\compare.py -o .\tmp\EP21OutfileNoDiff.xlsx .\docs\EP21Chinese.sbv .\docs\EP21Carsen.sbv --no-diff
+
+python .\src\compare.py -o .\tmp\EP21Outfile.csv .\docs\EP21Volunteers.sbv .\docs\EP21Carsen.sbv -f database
 ```
