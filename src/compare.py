@@ -7,19 +7,22 @@ import paths
 import matcher
 from matcher import IdenticalTimeRangeSubtitleMatcher, DiffSubtitleMatcher, FuzzyTimeRangeSubtitleMatcher
 
-def compare(infile_a, infile_b, infile_f=None, outfile=None):
-  sub_a = parse_sbv(infile_a)
-  sub_b = parse_sbv(infile_b)
+def compare_review(from_file, to_file, ref_file=None, out_file=None, no_diff=False):
+  sub_a = parse_sbv(from_file)
+  sub_b = parse_sbv(to_file)
 
-  matchers = [IdenticalTimeRangeSubtitleMatcher(), DiffSubtitleMatcher(), FuzzyTimeRangeSubtitleMatcher()]
+  matchers = [IdenticalTimeRangeSubtitleMatcher()]
+  if not no_diff:
+    matchers.append(DiffSubtitleMatcher())
+  matchers.append(FuzzyTimeRangeSubtitleMatcher())
   blocks = matcher.merge(sub_a, sub_b, matchers)
 
-  data = unwrap_blocks_with_diff(blocks, True)
+  data = format_blocks_review(blocks, True)
 
   df = None
   df_ = pd.DataFrame(data, columns = ["start", "end", "Translation", "Revised", "word change"])
-  if infile_f:
-    sub_f = parse_sbv(infile_f)
+  if ref_file:
+    sub_f = parse_sbv(ref_file)
 
     data_f = [[sub.start, sub.end, sub.text] for sub in sub_f]
     df_f = pd.DataFrame(data_f, columns = ["start", "end", "Chinese"])
@@ -33,9 +36,9 @@ def compare(infile_a, infile_b, infile_f=None, outfile=None):
   else:
     df = df_
 
-  to_excel(outfile, df)
+  to_excel(out_file, df)
 
-def unwrap_blocks_with_diff(blocks, word_count=False):
+def format_blocks_review(blocks, word_count=False):
   data = []
   for b in blocks:
     match, b1, b2, _ = b
@@ -57,44 +60,8 @@ def unwrap_blocks_with_diff(blocks, word_count=False):
       data.extend(captions)
   return data
 
-def compare_timeline_only(infile_a, infile_b, outfile=None):
-  sub_a = parse_sbv(infile_a)
-  sub_b = parse_sbv(infile_b)
-
-  matchers = [IdenticalTimeRangeSubtitleMatcher(), FuzzyTimeRangeSubtitleMatcher()]
-  blocks = matcher.merge(sub_a, sub_b, matchers)
-
-  data = unwrap_blocks(blocks)
-
-  if outfile:
-    with open(outfile, "w", encoding="utf-8") as f:
-      for d in data:
-        f.write(";".join([item.replace("\n", "\\n") for item in d]))
-        f.write("\n")
-  else:
-    for d in data:
-      print(d)
-
-def unwrap_blocks(blocks):
-  data = []
-  for block in blocks:
-    match, b1, b2, _ = block
-    if match:
-      _b1 = b1[0]
-      _b2 = b2[0]
-
-      data.append([_b1.start, _b1.end, _b1.text, _b2.start, _b2.end, _b2.text])
-    else:
-      captions = []
-      captions.extend([[b.start, b.end, b.text, "", "", ""] for b in b1])
-      captions.extend([["", "", "", b.start, b.end, b.text] for b in b2])
-      captions.sort(key=lambda c: c[0] + c[1])
-
-      data.extend(captions)
-  return data
-
 def to_excel(outfile, df):
-  # Output to Excel
+  # pylint: disable=abstract-class-instantiated
   writer = pd.ExcelWriter(outfile, engine='xlsxwriter')
   df.to_excel(writer, sheet_name='Sheet1', index=False)
 
@@ -154,41 +121,81 @@ def to_excel(outfile, df):
 
   writer.save()
 
-if __name__ == '__main__':
-  # pylint: disable=no-value-for-parameter
+def compare_database(from_file, to_file, out_file=None):
+  sub_a = parse_sbv(from_file)
+  sub_b = parse_sbv(to_file)
 
+  matchers = [IdenticalTimeRangeSubtitleMatcher(), FuzzyTimeRangeSubtitleMatcher()]
+  blocks = matcher.merge(sub_a, sub_b, matchers)
+
+  data = format_blocks_database(blocks)
+  df = pd.DataFrame(data)
+
+  to_csv(out_file, df)
+
+def format_blocks_database(blocks):
+  data = []
+  for block in blocks:
+    match, b1, b2, _ = block
+    if match:
+      _b1 = b1[0]
+      _b2 = b2[0]
+
+      data.append([_b1.start, _b1.end, _b1.text, _b2.start, _b2.end, _b2.text])
+    else:
+      captions = []
+      captions.extend([[b.start, b.end, b.text, "", "", ""] for b in b1])
+      captions.extend([["", "", "", b.start, b.end, b.text] for b in b2])
+      captions.sort(key=lambda c: c[0] + c[1])
+
+      data.extend(captions)
+  return data
+
+def to_csv(out_file, df):
+  s = df.to_csv(out_file, header=False, index=False)
+  if s:
+    print(s)
+
+if __name__ == '__main__':
   import argparse
 
-  parser = argparse.ArgumentParser(description="Utility for comparing different subtitle files.")
-  parser.add_argument('original', metavar='original_file', nargs='?', help='original file')
-  parser.add_argument('revised', metavar='revised_file', nargs='?', help='revised file')
-  parser.add_argument('-f', '--foreign', metavar='foreign_file', help='foreign file')
-  parser.add_argument('-o', '--outfile', metavar='out_file', help='file to save to, prints to stdout in csv by default')
-  parser.add_argument('-c', '--config', metavar='config_file', help="File with input file paths defined")
-  parser.add_argument('--timeline-only', action='store_const', const=True, default=False, help='compare using timelines only')
+  parser = argparse.ArgumentParser(description="Utility for comparing different versions of subtitle files.")
+  parser.add_argument('-c', '--config', metavar='CONFIG_FILE', help="configuration file with *_FILE supplied")
+  parser.add_argument('-o', '--outfile', metavar='OUT_FILE', help='file to save to, prints to stdout in csv if not supplied')
+  parser.add_argument('-f', '--format', default='review', choices= ['review', 'database'], help="defaults to 'review'")
+  parser.add_argument('-nd', '--no-diff', action='store_const', const=True, default=False, help="compare without diff matcher, should be used when comparing different languages, only applicable to 'review' format")
+  parser.add_argument('from_file', metavar='FROM_FILE', nargs='?', help='file to compare from')
+  parser.add_argument('to_file', metavar='TO_FILE', nargs='?', help='file to compare to')
+  parser.add_argument('ref_file', metavar='REF_FILE', nargs='?', help='file used as reference, is merged directly with no comparisons')
 
   args = parser.parse_args()
 
-  FOREIGN_FILE = None
-  ORIGINAL_FILE = None
-  REVISED_FILE = None
+  FROM_FILE = None
+  TO_FILE = None
+  REF_FILE = None
   OUT_FILE = None
 
   if args.config:
     from runpy import run_path
     settings = run_path(args.config)
 
-    FOREIGN_FILE = settings["CHINESE_FILE"]
-    ORIGINAL_FILE = settings["ORIGINAL_FILE"]
-    REVISED_FILE = settings["REVISED_FILE"]
-    OUT_FILE = settings["OUT_FILE"]
+    REF_FILE = settings['CHINESE_FILE'] if 'CHINESE_FILE' in settings else settings['REF_FILE'] if 'REF_FILE' in settings else None
+    FROM_FILE = settings['ORIGINAL_FILE'] if 'ORIGINAL_FILE' in settings else settings['FROM_FILE'] if 'FROM_FILE' in settings else None
+    TO_FILE = settings['REVISED_FILE'] if 'REVISED_FILE' in settings else settings['TO_FILE'] if 'TO_FILE' in settings else None
+    OUT_FILE = settings['OUT_FILE']
   else:
-    FOREIGN_FILE = args.foreign
-    ORIGINAL_FILE = args.original
-    REVISED_FILE = args.revised
+    REF_FILE = args.ref_file
+    FROM_FILE = args.from_file
+    TO_FILE = args.to_file
     OUT_FILE = args.outfile
   
-  if not args.timeline_only:
-    compare(ORIGINAL_FILE, REVISED_FILE, infile_f=FOREIGN_FILE, outfile=OUT_FILE)
+  if not FROM_FILE:
+    raise Exception("Missing FROM_FILE.")
+
+  if not TO_FILE:
+    raise Exception("Missing TO_FILE.")
+  
+  if args.format == 'review':
+    compare_review(FROM_FILE, TO_FILE, ref_file=REF_FILE, out_file=OUT_FILE, no_diff=args.no_diff)
   else:
-    compare_timeline_only(ORIGINAL_FILE, REVISED_FILE, outfile=OUT_FILE)
+    compare_database(FROM_FILE, TO_FILE, OUT_FILE)
