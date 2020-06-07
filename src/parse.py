@@ -8,6 +8,9 @@ TMP_DIR = path.join(path.dirname(SCIRPT_DIR), "tmp")
 Path(TMP_DIR).mkdir(parents=False, exist_ok=True)
 
 def parse_sbv(sbv_path):
+  """
+  To get around the webvtt library not supporting empty subtitles
+  """
   data = None
   with open(sbv_path, "r", encoding="utf-8") as f:
     data = f.readlines()
