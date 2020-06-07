@@ -20,17 +20,7 @@ class TestCompare(unittest.TestCase):
 
         compare.compare_review(str(file_c), str(from_file), str(to_file), str(out_file))
 
-<<<<<<< HEAD
         pd.read_excel(out_file)
-=======
-        file_expected = Path(CURR_DIR.parent, "resource", "test_EP21Output.xlsx")
-        self.assertTrue(file_expected.is_file())
-
-        df_out = pd.read_excel(file_out)
-        df_expected = pd.read_excel(file_expected)
-
-        self.assertTrue(df_out.equals(df_expected))
->>>>>>> More minor clean up
 
 if __name__ == '__main__':
     unittest.main()
