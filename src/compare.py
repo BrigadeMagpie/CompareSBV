@@ -60,41 +60,6 @@ def format_blocks_review(blocks, word_count=False):
       data.extend(captions)
   return data
 
-<<<<<<< HEAD
-=======
-def compare_timeline_only(infile_a, infile_b, outfile=None):
-  sub_a = parse_sbv(infile_a)
-  sub_b = parse_sbv(infile_b)
-
-  matchers = [IdenticalTimeRangeSubtitleMatcher(), FuzzyTimeRangeSubtitleMatcher()]
-  blocks = matcher.merge(sub_a, sub_b, matchers)
-
-  data = unwrap_blocks(blocks)
-
-  df = pd.DataFrame(data)
-  csv_str = df.to_csv(outfile, header=False, index=False)
-  if not outfile:
-    print(csv_str)
-
-def unwrap_blocks(blocks):
-  data = []
-  for block in blocks:
-    match, b1, b2, _ = block
-    if match:
-      _b1 = b1[0]
-      _b2 = b2[0]
-
-      data.append([_b1.start, _b1.end, _b1.text, _b2.start, _b2.end, _b2.text])
-    else:
-      captions = []
-      captions.extend([[b.start, b.end, b.text, "", "", ""] for b in b1])
-      captions.extend([["", "", "", b.start, b.end, b.text] for b in b2])
-      captions.sort(key=lambda c: c[0] + c[1])
-
-      data.extend(captions)
-  return data
-
->>>>>>> Adding compareall
 def to_excel(outfile, df):
   # pylint: disable=abstract-class-instantiated
   writer = pd.ExcelWriter(outfile, engine='xlsxwriter')
