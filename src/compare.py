@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pandas as pd
 from datetime import datetime
 from difflib import SequenceMatcher, Differ
@@ -48,7 +49,11 @@ def format_blocks_review(blocks, word_count=False):
 
       if word_count:
         wc = 1 - SequenceMatcher(None, _b1.text, _b2.text).ratio()
-        data.append([_b2.start, _b2.end, _b1.text, _b2.text, wc])
+
+        if wc == 0:
+          data.append([_b2.start, _b2.end, _b1.text, _b2.text])
+        else:
+          data.append([_b2.start, _b2.end, _b1.text, _b2.text, wc])
       else:
         data.append([_b2.start, _b2.end, _b1.text, _b2.text])
     else:
