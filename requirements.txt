@@ -5,5 +5,5 @@ six==1.12.0
 webvtt-py==0.4.2
 XlsxWriter==1.2.1
 xlrd==1.2.0
-numpy==1.17.2
+numpy==1.22.0
 pandas==0.25.1
