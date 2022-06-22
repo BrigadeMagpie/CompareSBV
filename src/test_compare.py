@@ -20,7 +20,7 @@ class TestCompare(unittest.TestCase):
 
         compare.compare_review(str(file_c), str(from_file), str(to_file), str(out_file))
 
-        pd.read_excel(out_file)
+        f = pd.read_excel(out_file)
 
 if __name__ == '__main__':
     unittest.main()
