@@ -23,7 +23,7 @@ usage: compare.py [-h] [-c CONFIG_FILE] [-o OUT_FILE] [-f {review,database}]
 ### Run using configuration file
 See .\config\config.py for sample configuration
 ```
-python .\src\compare.py -c .\config\local.py
+python .\src\compare.py -c .\config\config.py
 ```
 
 ### Run using command line
