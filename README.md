@@ -1,6 +1,6 @@
 Programming support for the translation projects by The Magpie Bridge Brigage
 
-Project homapage https://liberapay.com/ZHZSubbers/
+Project homapage https://magpiebridgebrigade.cn/
 
 
 `CompareSBV` repository compares YouTube sbv files and outputs an Excel spreasheet.
