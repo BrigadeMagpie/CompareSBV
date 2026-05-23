@@ -67,64 +67,62 @@ def format_blocks_review(blocks, word_count=False):
 
 def to_excel(outfile, df):
   # pylint: disable=abstract-class-instantiated
-  writer = pd.ExcelWriter(outfile, engine='xlsxwriter')
-  df.to_excel(writer, sheet_name='Sheet1', index=False)
+  with pd.ExcelWriter(outfile, engine='xlsxwriter') as writer:
+    df.to_excel(writer, sheet_name='Sheet1', index=False)
 
-  workbook  = writer.book
-  worksheet = writer.sheets['Sheet1']
+    workbook  = writer.book
+    worksheet = writer.sheets['Sheet1']
 
-  num_cols = len(df.columns)
-  sub_cols = num_cols - 3
+    num_cols = len(df.columns)
+    sub_cols = num_cols - 3
 
-  sub_col_start = ord('C')
-  sub_col_end = sub_col_start + (sub_cols - 1)
-  wc_col = sub_col_end + 1
+    sub_col_start = ord('C')
+    sub_col_end = sub_col_start + (sub_cols - 1)
+    wc_col = sub_col_end + 1
 
-  f_wrap = workbook.add_format({'text_wrap': True})
-  f_wc = workbook.add_format({'num_format': '0.00'})
+    f_wrap = workbook.add_format({'text_wrap': True})
+    f_wc = workbook.add_format({'num_format': '0.00'})
 
-  f_green = workbook.add_format({
-    'bg_color': '#C6EFCE',
-    'font_color': '#006100'
-  })
-  f_red = workbook.add_format({
-    'bg_color': '#FFC7CE',
-    'font_color': '#9C0006'
-  })
-  f_yellow = workbook.add_format({
-    'bg_color': '#FFEB9C',
-    'font_color': '#9C6500'
-  })
+    f_green = workbook.add_format({
+      'bg_color': '#C6EFCE',
+      'font_color': '#006100'
+    })
+    f_red = workbook.add_format({
+      'bg_color': '#FFC7CE',
+      'font_color': '#9C0006'
+    })
+    f_yellow = workbook.add_format({
+      'bg_color': '#FFEB9C',
+      'font_color': '#9C6500'
+    })
 
-  worksheet.set_column('A:B', 10)
-  worksheet.set_column('%s:%s' % (chr(sub_col_start), chr(sub_col_end)), 38, f_wrap)
-  worksheet.set_column('%s:%s' % (chr(wc_col), chr(wc_col)),8, f_wc)
+    worksheet.set_column('A:B', 10)
+    worksheet.set_column('%s:%s' % (chr(sub_col_start), chr(sub_col_end)), 38, f_wrap)
+    worksheet.set_column('%s:%s' % (chr(wc_col), chr(wc_col)),8, f_wc)
 
-  all_rows = '%s2:%s1048576'
-  wc_col_format = all_rows % (chr(wc_col), chr(wc_col))
-  worksheet.conditional_format(wc_col_format, {
-    'type': 'cell',
-    'criteria': 'between',
-    'minimum': 0.001,
-    'maximum': 0.399,
-    'format': f_green
-  })
-  
-  worksheet.conditional_format(wc_col_format, {
-    'type': 'cell',
-    'criteria': 'between',
-    'minimum': 0.4,
-    'maximum': 0.99,
-    'format': f_red
-  })
+    all_rows = '%s2:%s1048576'
+    wc_col_format = all_rows % (chr(wc_col), chr(wc_col))
+    worksheet.conditional_format(wc_col_format, {
+      'type': 'cell',
+      'criteria': 'between',
+      'minimum': 0.001,
+      'maximum': 0.399,
+      'format': f_green
+    })
+    
+    worksheet.conditional_format(wc_col_format, {
+      'type': 'cell',
+      'criteria': 'between',
+      'minimum': 0.4,
+      'maximum': 0.99,
+      'format': f_red
+    })
 
-  worksheet.conditional_format(wc_col_format, {
-    'type': 'cell',
-    'criteria': '>',
-    'value': 0.99,
-    'format': f_yellow})
-
-  writer.save()
+    worksheet.conditional_format(wc_col_format, {
+      'type': 'cell',
+      'criteria': '>',
+      'value': 0.99,
+      'format': f_yellow})
 
 def compare_database(from_file, to_file, out_file=None):
   sub_a = parse_sbv(from_file)
